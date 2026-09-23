@@ -1,0 +1,265 @@
+{
+  "Federal Tax Credits": [
+    "FED-CC-001",
+    "FED-ENERGY-001",
+    "FED-ENERGY-002",
+    "FED-FUEL-001",
+    "FED-RD-001",
+    "FED-CHILD-001",
+    "FED-HIST-001"
+  ],
+  "Alabama": [
+    "AL-INV-001",
+    "AL-APP-001",
+    "AL-JOBS-001",
+    "AL-PORT-001",
+    "AL-VET-001"
+  ],
+  "Alaska": [
+    "AK-VET-001"
+  ],
+  "Arizona": [
+    "AZ-QF-001",
+    "AZ-RD-001"
+  ],
+  "Arkansas": [
+    "AR-ADV-001",
+    "AR-APP-001",
+    "AR-ARKPLUS-001",
+    "AR-WOOD-001",
+    "AR-RD-001",
+    "AR-RD-002",
+    "AR-RD-003"
+  ],
+  "California": [
+    "CA-COMP-001",
+    "CA-RD-001",
+    "CA-NEC-001"
+  ],
+  "Colorado": [
+    "CO-EZ-INV-001",
+    "CO-EZ-TRAIN-001",
+    "CO-EZ-JOBS-001",
+    "CO-EZ-RD-001",
+    "CO-JGITC-001"
+  ],
+  "Connecticut": [
+    "CT-FCI-001",
+    "CT-HC-001",
+    "CT-ME-001",
+    "CT-APP-001",
+    "CT-RD-001",
+    "CT-RE-001"
+  ],
+  "Delaware": [
+    "DE-BCJA-001",
+    "DE-RD-001"
+  ],
+  "Florida": [
+    "FL-RD-001",
+    "FL-ABILITY-001",
+    "FL-RURAL-001"
+  ],
+  "Georgia": [
+    "GA-JOBS-001",
+    "GA-INV-001",
+    "GA-OPTINV-001",
+    "GA-RD-001",
+    "GA-RETRAIN-001"
+  ],
+  "Hawaii": [
+    "HI-RETITC-001",
+    "HI-RD-001"
+  ],
+  "Idaho": [
+    "ID-BA-001",
+    "ID-ITC-001",
+    "ID-RD-001",
+    "ID-TRI-001"
+  ],
+  "Illinois": [
+    "IL-APP-001",
+    "IL-EDGE-001",
+    "IL-HIST-001",
+    "IL-RD-001"
+  ],
+  "Indiana": [
+    "IN-CRD-001",
+    "IN-EDGE-001",
+    "IN-HBI-001",
+    "IN-RD-001"
+  ],
+  "Iowa": [
+    "IA-HIST-001",
+    "IA-RAC-001"
+  ],
+  "Kansas": [
+    "KS-HPIP-001",
+    "KS-HPIP-TR-001",
+    "KS-RD-001",
+    "KS-SLR-001"
+  ],
+  "Kentucky": [
+    "KY-HIST-001",
+    "KY-KBI-001",
+    "KY-KRA-001",
+    "KY-QRF-001"
+  ],
+  "Louisiana": [
+    "LA-INVINV-001",
+    "LA-RD-001"
+  ],
+  "Maine": [
+    "ME-DIRIGO-CAP-001",
+    "ME-DIRIGO-TR-001",
+    "ME-BIOCHEM-001",
+    "ME-RD-001"
+  ],
+  "Maryland": [
+    "MD-HIST-001",
+    "MD-JC-001",
+    "MD-ONE-001",
+    "MD-RD-001"
+  ],
+  "Massachusetts": [
+    "MA-EDIP-001",
+    "MA-ITC-001",
+    "MA-RD-001"
+  ],
+  "Michigan": [
+    "MI-RD-001"
+  ],
+  "Minnesota": [
+    "MN-RD-001",
+    "MN-HIST-001"
+  ],
+  "Mississippi": [
+    "MS-BROWNJOB-001",
+    "MS-JOBS-001",
+    "MS-MFLEX-001",
+    "MS-MFGINV-001",
+    "MS-RDSKILL-001",
+    "MS-TRAIN-001"
+  ],
+  "Missouri": [
+    "MO-WORKS-001",
+    "MO-NEWINV-001",
+    "MO-RD-001",
+    "MO-WOOD-001"
+  ],
+  "Montana": [
+    "MT-APP-001",
+    "MT-HIST-001",
+    "MT-JOBS-001",
+    "MT-REC-001"
+  ],
+  "Nebraska": [
+    "NE-IMAGINE-001",
+    "NE-MICRO-001",
+    "NE-RD-001",
+    "NE-RENCH-001",
+    "NE-RAIL-001"
+  ],
+  "New Hampshire": [
+    "NH-ERZ-001",
+    "NH-RD-001"
+  ],
+  "New Jersey": [
+    "NJ-EFF-001",
+    "NJ-MFG-001",
+    "NJ-NEWJ-001",
+    "NJ-REC-001",
+    "NJ-RD-001"
+  ],
+  "New Mexico": [
+    "NM-INV-001",
+    "NM-RURALJOB-001",
+    "NM-RD-001"
+  ],
+  "New York": [
+    "NY-BROWN-001",
+    "NY-EIC-001",
+    "NY-EXCEL-001",
+    "NY-ITC-001",
+    "NY-RD-001"
+  ],
+  "North Carolina": [
+    "NC-MILL-001",
+    "NC-RECY-001"
+  ],
+  "North Dakota": [
+    "ND-APP-001",
+    "ND-AUTO-001",
+    "ND-REN-001",
+    "ND-RD-001"
+  ],
+  "Ohio": [
+    "OH-JCTC-001",
+    "OH-HIST-001",
+    "OH-RD-001"
+  ],
+  "Oklahoma": [
+    "OK-INVJOBS-001",
+    "OK-QUALITYINV-001",
+    "OK-SIDE-001"
+  ],
+  "Oregon": [
+    "OR-QJ-001"
+  ],
+  "Pennsylvania": [
+    "PA-HIST-001",
+    "PA-MI-001",
+    "PA-RD-001",
+    "PA-RURAL-001"
+  ],
+  "Rhode Island": [
+    "RI-QJ-001",
+    "RI-REBUILD-001"
+  ],
+  "South Carolina": [
+    "SC-ABAND-001",
+    "SC-CAP-001",
+    "SC-CHILD-001",
+    "SC-JOBS-001",
+    "SC-REC-001",
+    "SC-RD-001",
+    "SC-SBJOBS-001",
+    "SC-SOLAR-001"
+  ],
+  "Tennessee": [
+    "TN-ENH-001",
+    "TN-IMC-001",
+    "TN-JTC-001"
+  ],
+  "Texas": [
+    "TX-HIST-001",
+    "TX-RD-001"
+  ],
+  "Utah": [
+    "UT-EDTIF-001",
+    "UT-RMDZ-001",
+    "UT-RD-001"
+  ],
+  "Vermont": [
+    "VT-RD-001"
+  ],
+  "Virginia": [
+    "VA-REC-001",
+    "VA-WT-001"
+  ],
+  "Washington": [
+    "WA-RURALJOBS-001",
+    "WA-CWT-001"
+  ],
+  "West Virginia": [
+    "WV-EOC-001",
+    "WV-INV-001",
+    "WV-MIC-001"
+  ],
+  "Wisconsin": [
+    "WI-BDTC-001",
+    "WI-EZ-001",
+    "WI-MAC-001",
+    "WI-RD-001"
+  ]
+}

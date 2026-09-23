@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tax.lumbermen.org/sitemap.xml
