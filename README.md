@@ -20,7 +20,7 @@ Then open `http://localhost:8080`.
 - `content/pages.json` contains extracted page text from the full sourcebook.
 - `content/publication-sections.json` contains long-form publication sections.
 - `content/site-config.json` stores the publication edition, revision date and full-PDF URL.
-- `assets/js/site.js` powers browser search, filters, compare, shortlist and feedback preparation.
+- `assets/js/site.js` powers browser search, filters, compare and feedback preparation.
 
 The generated HTML pages are indexable and shareable. Program URLs use permanent sourcebook identifiers such as `FED-RD-001`.
 
