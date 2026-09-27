@@ -2,3 +2,4 @@
 .social-follow{display:inline-flex;align-items:center;justify-content:center;margin-top:.45rem;padding:.45rem .7rem;border:1px solid rgba(255,255,255,.65);border-radius:6px;text-decoration:none;font-weight:800;background:rgba(255,255,255,.1)}.social-follow:hover{background:rgba(255,255,255,.18);text-decoration:none}
 .hero-media{display:grid;gap:2.1rem;align-content:center;justify-items:center}.hero-media img{grid-column:1}.hero-follow{justify-self:center;color:#fff;background:var(--green);border-color:var(--green);font-size:.69rem;line-height:1.2;min-height:32px;padding:.32rem .52rem;margin-top:0}.hero-follow:hover{background:var(--green-2);color:#fff}
 .home-page .quick-actions{grid-template-columns:repeat(3,minmax(0,1fr))}@media(max-width:900px){.home-page .quick-actions{grid-template-columns:1fr}}
+[hidden]{display:none!important}.source-page{scroll-margin-top:6.5rem}.check-list label[hidden]{display:none!important}.compare-tray[hidden]{display:none!important}

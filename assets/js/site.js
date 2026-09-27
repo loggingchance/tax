@@ -91,7 +91,7 @@ function params() {
 }
 
 function selected(name) {
-  return params().getAll(name).flatMap((v) => v.split(",")).filter(Boolean);
+  return params().getAll(name).flatMap((v) => v.split(",")).map((v) => v.trim()).filter(Boolean);
 }
 
 function setParams(state) {
@@ -158,6 +158,7 @@ function compareIdsFromUrl() {
 }
 
 function setCompareIds(ids) {
+  ids = [...new Set(ids)].slice(0, 3);
   saveStorage("compare", ids);
   if (document.querySelector("[data-compare-page]")) {
     const sp = new URLSearchParams(location.search);
@@ -179,6 +180,7 @@ async function renderCompareTray() {
   const ids = getCompareIds();
   if (!ids.length) {
     tray.hidden = true;
+    tray.innerHTML = "";
     return;
   }
   tray.hidden = false;
@@ -225,7 +227,8 @@ function debounce(fn, wait = 150) {
 
 async function initSearch(app) {
   const programs = (await loadPrograms()).map((p) => ({ ...p, _text: textFor(p) }));
-  const stateNames = [...new Set(programs.map((p) => p.jurisdiction))].sort((a, b) => (a === "Federal Tax Credits" ? -1 : b === "Federal Tax Credits" ? 1 : a.localeCompare(b)));
+  const zeroProgramStates = ["Nevada", "South Dakota", "Wyoming"];
+  const stateNames = [...new Set([...programs.map((p) => p.jurisdiction), ...zeroProgramStates])].sort((a, b) => (a === "Federal Tax Credits" ? -1 : b === "Federal Tax Credits" ? 1 : a.localeCompare(b)));
   const opts = {
     state: stateNames,
     activity: [...new Set(programs.flatMap((p) => p.activity_tags || []))].sort(),
@@ -283,6 +286,7 @@ async function initSearch(app) {
     const fedOnly = state.length ? rows.filter(([p]) => p.jurisdiction_type === "Federal").length : 0;
     app.querySelector("[data-result-count]").textContent = state.length ? `Showing ${Math.min(visible, rows.length)} of ${rows.length}: ${stateOnly} selected-state + ${fedOnly} federal` : `Showing ${Math.min(visible, rows.length)} of ${rows.length} programs`;
     app.querySelector("[data-results]").innerHTML = rows.length ? slice.map(([p]) => card(p, terms)).join("") : '<p class="empty">No programs match the current search. <button type="button" data-remove-last>Remove last filter</button> <a href="/search/">Search all states</a> <a href="/states/federal/">Browse federal credits</a>. This does not mean a business is ineligible.</p>';
+    app.querySelector("[data-remove-last]")?.addEventListener("click", () => removeLastFilter({ q, state, activity, business, timing, refundable, difficulty, fit }));
     const show = app.querySelector("[data-show-more]");
     show.hidden = visible >= rows.length;
     show.textContent = `Show more (${rows.length - visible} remaining)`;
@@ -309,6 +313,23 @@ async function initSearch(app) {
     }));
   }
 
+  function removeLastFilter(state) {
+    const order = ["fit", "difficulty", "refundable", "timing", "business", "activity", "state"];
+    for (const name of order) {
+      if (state[name]?.length) {
+        const value = state[name][state[name].length - 1];
+        const input = [...app.querySelectorAll(`input[name="${name}"]`)].find((i) => i.value === value);
+        if (input) input.checked = false;
+        run();
+        return;
+      }
+    }
+    if (q.value) {
+      q.value = "";
+      run();
+    }
+  }
+
   function clearAll() {
     app.querySelectorAll('input[type="checkbox"]').forEach((i) => { i.checked = i.id === "includeFederal"; });
     q.value = "";
@@ -324,7 +345,7 @@ async function initSearch(app) {
   app.querySelector("[data-filter-toggle]").onclick = () => app.querySelector("[data-filters]").classList.toggle("is-open");
   app.querySelector("[data-filter-search='state']")?.addEventListener("input", (e) => {
     const term = norm(e.target.value);
-    app.querySelectorAll('[data-filter="state"] label').forEach((l) => l.hidden = term && !norm(l.textContent).includes(term));
+    app.querySelectorAll('[data-filter="state"] label').forEach((l) => l.hidden = Boolean(term && !norm(l.textContent).includes(term)));
   });
   if (matchMedia("(min-width: 901px)").matches) app.querySelector("[data-filters]").classList.add("is-open");
   run();
@@ -341,10 +362,13 @@ function initFeedback() {
   const dialog = document.querySelector("#feedbackDialog");
   if (!dialog) return;
   document.querySelectorAll("[data-feedback]").forEach((b) => b.addEventListener("click", () => dialog.showModal()));
-  document.querySelector("#feedbackEmailButton").onclick = () => {
-    const msg = document.querySelector("#feedbackMessage");
-    const error = document.querySelector("#feedbackError");
-    const status = document.querySelector("#feedbackStatus");
+  const button = document.querySelector("#feedbackEmailButton");
+  const msg = document.querySelector("#feedbackMessage");
+  const error = document.querySelector("#feedbackError");
+  const status = document.querySelector("#feedbackStatus");
+  if (!button || !msg || !error || !status) return;
+  dialog.querySelectorAll("[data-close-feedback]").forEach((b) => b.addEventListener("click", () => dialog.close()));
+  button.onclick = () => {
     if (!msg.value.trim()) {
       error.textContent = "Please enter a correction or question before preparing the email.";
       error.hidden = false;

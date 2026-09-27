@@ -122,9 +122,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Internal Revenue Service - Clean Electricity Production Credit",
+        "label": "Clean Electricity Production Credit | Internal Revenue Service",
         "publisher": "irs.gov",
-        "url": "https://www.irs.gov/credits-deductions/clean-electricity-investment-credit"
+        "url": "https://www.irs.gov/credits-deductions/clean-electricity-production-credit"
       }
     ],
     "difficulty_score": 3,
@@ -223,9 +223,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Internal Revenue Service - Qualified Small Business Payroll Tax Credit",
+        "label": "Qualified small business payroll tax credit for increasing research activities | Internal Revenue Service",
         "publisher": "irs.gov",
-        "url": "https://www.irs.gov/credits-deductions/clean-fuel-production-credit"
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/qualified-small-business-payroll-tax-credit-for-increasing-research-activities"
       }
     ],
     "difficulty_score": 2,
@@ -277,9 +277,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Internal Revenue Service - Employer-Provided Child Care Credit, 2026+",
+        "label": "Employer-provided child care credit: Tax year 2026 and later | Internal Revenue Service",
         "publisher": "irs.gov",
-        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/qualified-small-business-payroll-tax-credit-for-increasing-research-activities"
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/employer-provided-child-care-credit-tax-year-2026-and-later"
       }
     ],
     "difficulty_score": 2,
@@ -328,44 +328,14 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Internal Revenue Service - Rehabilitation Tax Credit",
+        "label": "Rehabilitation Credit | Internal Revenue Service",
         "publisher": "irs.gov",
         "url": "https://www.irs.gov/businesses/small-businesses-self-employed/rehabilitation-credit"
       },
       {
-        "label": "Internal Revenue Service - Form 8933 Instructions",
-        "publisher": "irs.gov",
-        "url": "https://www.irs.gov/instructions/i8933"
-      },
-      {
-        "label": "Internal Revenue Service - Clean Electricity Investment Credit",
-        "publisher": "irs.gov",
-        "url": "https://www.irs.gov/credits-deductions/clean-electricity-investment-credit"
-      },
-      {
-        "label": "Internal Revenue Service - Clean Electricity Production Credit",
-        "publisher": "irs.gov",
-        "url": "https://www.irs.gov/credits-deductions/clean-electricity-production-credit"
-      },
-      {
-        "label": "Internal Revenue Service - Clean Fuel Production Credit",
-        "publisher": "irs.gov",
-        "url": "https://www.irs.gov/credits-deductions/clean-fuel-production-credit"
-      },
-      {
-        "label": "Internal Revenue Service - Qualified Small Business Payroll Tax Credit",
-        "publisher": "irs.gov",
-        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/qualified-small-business-payroll-tax-credit-for-increasing-research-activities"
-      },
-      {
-        "label": "Internal Revenue Service - Employer-Provided Child Care Credit, 2026+",
-        "publisher": "irs.gov",
-        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/employer-provided-child-care-credit-tax-year-2026-and-later"
-      },
-      {
         "label": "Internal Revenue Service - Rehabilitation Tax Credit",
-        "publisher": "alabama.gov",
-        "url": "https://www.revenue.alabama.gov/tax-incentives/income-tax-incentives/"
+        "publisher": "irs.gov",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/rehabilitation-credit"
       }
     ],
     "difficulty_score": 3,
@@ -414,9 +384,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Alabama Department of Revenue - Income Tax Incentives",
-        "publisher": "alabama.gov",
-        "url": "https://www.revenue.alabama.gov/tax-incentives/income-tax-incentives/"
+        "label": "Investment Credit Allocation Schedules - Alabama Department of Revenue",
+        "publisher": "revenue.alabama.gov",
+        "url": "https://www.revenue.alabama.gov/tax-incentives/investment-credit-allocation-schedules/"
       }
     ],
     "difficulty_score": 3,
@@ -467,9 +437,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Alabama Department of Revenue - Income Tax Incentives",
-        "publisher": "alabama.gov",
-        "url": "https://www.revenue.alabama.gov/tax-incentives/income-tax-incentives/"
+        "label": "Apprenticeship Credit - Alabama Department of Revenue",
+        "publisher": "revenue.alabama.gov",
+        "url": "https://www.revenue.alabama.gov/tax-incentives/apprenticeship-credit/"
       }
     ],
     "difficulty_score": 2,
@@ -519,7 +489,7 @@
     "official_sources": [
       {
         "label": "Alabama Department of Revenue - Income Tax Incentives",
-        "publisher": "alabama.gov",
+        "publisher": "revenue.alabama.gov",
         "url": "https://www.revenue.alabama.gov/tax-incentives/income-tax-incentives/"
       }
     ],
@@ -571,9 +541,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Alabama Department of Revenue - Income Tax Incentives",
-        "publisher": "alabama.gov",
-        "url": "https://www.revenue.alabama.gov/tax-incentives/income-tax-incentives/"
+        "label": "Port Credit - Alabama Department of Revenue",
+        "publisher": "revenue.alabama.gov",
+        "url": "https://www.revenue.alabama.gov/tax-incentives/port-credit/"
       }
     ],
     "difficulty_score": 3,
@@ -620,14 +590,14 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Alabama Department of Revenue - Income Tax Incentives",
-        "publisher": "alabama.gov",
+        "label": "Income Tax Incentives - Alabama Department of Revenue",
+        "publisher": "revenue.alabama.gov",
         "url": "https://www.revenue.alabama.gov/tax-incentives/income-tax-incentives/"
       },
       {
         "label": "Alabama Department of Revenue - Income Tax Incentives",
-        "publisher": "akleg.gov",
-        "url": "https://www.akleg.gov/basis/get_documents.asp?docid=67508&session=32"
+        "publisher": "revenue.alabama.gov",
+        "url": "https://www.revenue.alabama.gov/tax-incentives/income-tax-incentives/"
       }
     ],
     "difficulty_score": 1,
@@ -676,14 +646,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Alaska Legislature - Revenue Department Indirect Expenditure Report, official source",
-        "publisher": "akleg.gov",
-        "url": "https://www.akleg.gov/basis/get_documents.asp?docid=67508&session=32"
-      },
-      {
-        "label": "Alaska Legislature - Revenue Department Indirect Expenditure Report, official source",
-        "publisher": "azcommerce.com",
-        "url": "https://www.azcommerce.com/incentives/qualified-facility-tax-credit/"
+        "label": "Alaska Veteran Employment Tax Credit",
+        "publisher": "jobs.alaska.gov",
+        "url": "https://jobs.alaska.gov/veterans/docs/AK_Veteran_Tax_Credit.pdf"
       }
     ],
     "difficulty_score": 1,
@@ -787,9 +752,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Arizona Commerce Authority - Research and Development Tax Credit",
-        "publisher": "azcommerce.com",
-        "url": "https://www.azcommerce.com/incentives/qualified-facility-tax-credit/"
+        "label": "Arizona 2026 Chapter 140 (HB 4168)",
+        "publisher": "azleg.gov",
+        "url": "https://www.azleg.gov/legtext/57leg/2r/laws/0140.pdf"
       },
       {
         "label": "Arizona Legislature - 2026 chapter 140, sections 8, 20, 26 and 34-36:",
@@ -797,17 +762,7 @@
         "url": "https://www.azcommerce.com/incentives/research-development-tax-credit/"
       },
       {
-        "label": "Arizona Commerce Authority - Qualified Facility Tax Credit",
-        "publisher": "azleg.gov",
-        "url": "https://www.azleg.gov/legtext/57leg/2r/laws/0140.pdf"
-      },
-      {
         "label": "Arizona Commerce Authority - Research and Development Tax Credit",
-        "publisher": "azleg.gov",
-        "url": "https://www.azleg.gov/legtext/57leg/2r/laws/0140.pdf"
-      },
-      {
-        "label": "Arizona Legislature - 2026 chapter 140, sections 8, 20, 26 and 34-36:",
         "publisher": "azleg.gov",
         "url": "https://www.azleg.gov/legtext/57leg/2r/laws/0140.pdf"
       }
@@ -911,9 +866,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Arkansas DFA - Business Incentives and Credits",
-        "publisher": "arkansasedc.com",
-        "url": "https://www.arkansasedc.com/why-arkansas/business-climate/incentives/pages/job-creation-incentives"
+        "label": "Business Incentives and Credits – Arkansas Department of Finance and Administration",
+        "publisher": "dfa.arkansas.gov",
+        "url": "https://www.dfa.arkansas.gov/office/taxes/tax-credits-special-refunds/business-incentives-and-credits/"
       }
     ],
     "difficulty_score": 2,
@@ -961,9 +916,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Arkansas Economic Development Commission - Job Creation Incentives",
-        "publisher": "arkansas.gov",
-        "url": "https://www.dfa.arkansas.gov/office/taxes/tax-credits-special-refunds/business-incentives-and-credits/"
+        "label": "Job Creation Incentives in Arkansas - AEDC",
+        "publisher": "arkansasedc.com",
+        "url": "https://www.arkansasedc.com/why-arkansas/business-climate/incentives/pages/job-creation-incentives"
       }
     ],
     "difficulty_score": 3,
@@ -1013,9 +968,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Arkansas General Assembly - Act 709 of 2025, effective for tax years",
-        "publisher": "arkansasedc.com",
-        "url": "https://www.arkansasedc.com/why-arkansas/business-climate/incentives/pages/job-creation-incentives"
+        "label": "Arkansas Act 709 of the Regular Session (2025)",
+        "publisher": "arkleg.state.ar.us",
+        "url": "https://www.arkleg.state.ar.us/Acts/FTPDocument?ddBienniumSession=2025%2F2025R&file=709.pdf&path=%2FACTS%2F2025R%2FPublic%2F"
       }
     ],
     "difficulty_score": 3,
@@ -1068,9 +1023,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Arkansas Economic Development Commission - Research and official source",
-        "publisher": "ar.us",
-        "url": "https://www.arkleg.state.ar.us/Acts/FTPDocument?ddBienniumSession=2025%2F2025R&file=709.pdf&path=%2FACTS%2F2025R%2FPublic%2F"
+        "label": "R&D Tax Credits & Incentives in Arkansas - AEDC",
+        "publisher": "arkansasedc.com",
+        "url": "https://www.arkansasedc.com/why-arkansas/business-climate/incentives/pages/r-d-credits-incentives"
       }
     ],
     "difficulty_score": 3,
@@ -1168,29 +1123,14 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Arkansas Economic Development Commission - Research and official source",
+        "label": "R&D Tax Credits & Incentives in Arkansas - AEDC",
         "publisher": "arkansasedc.com",
         "url": "https://www.arkansasedc.com/why-arkansas/business-climate/incentives/pages/r-d-credits-incentives"
       },
       {
-        "label": "Arkansas Economic Development Commission - Job Creation Incentives",
-        "publisher": "arkansasedc.com",
-        "url": "https://www.arkansasedc.com/why-arkansas/business-climate/incentives/pages/job-creation-incentives"
-      },
-      {
-        "label": "Arkansas DFA - Business Incentives and Credits",
-        "publisher": "arkansas.gov",
-        "url": "https://www.dfa.arkansas.gov/office/taxes/tax-credits-special-refunds/business-incentives-and-credits/"
-      },
-      {
-        "label": "Arkansas General Assembly - Act 709 of 2025, effective for tax years",
-        "publisher": "ar.us",
-        "url": "https://www.arkleg.state.ar.us/Acts/FTPDocument?ddBienniumSession=2025%2F2025R&file=709.pdf&path=%2FACTS%2F2025R%2FPublic%2F"
-      },
-      {
         "label": "Arkansas Economic Development Commission - Research and official source",
-        "publisher": "ca.gov",
-        "url": "https://calosba.ca.gov/for-small-businesses-and-non-profits/business-incentives/"
+        "publisher": "arkansasedc.com",
+        "url": "https://www.arkansasedc.com/why-arkansas/business-climate/incentives/pages/r-d-credits-incentives"
       }
     ],
     "difficulty_score": 3,
@@ -1239,9 +1179,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "California FTB - Business Credits",
-        "publisher": "ca.gov",
-        "url": "https://calosba.ca.gov/for-small-businesses-and-non-profits/business-incentives/"
+        "label": "California Competes | California Governor’s Office of Business and Economic Development",
+        "publisher": "business.ca.gov",
+        "url": "https://business.ca.gov/advantages/california-competes-tax-credit/"
       }
     ],
     "difficulty_score": 3,
@@ -1292,7 +1232,7 @@
     "official_sources": [
       {
         "label": "California Franchise Tax Board - California Research Credit",
-        "publisher": "ca.gov",
+        "publisher": "ftb.ca.gov",
         "url": "https://www.ftb.ca.gov/file/business/credits/california-research.html"
       }
     ],
@@ -1341,24 +1281,14 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "California Franchise Tax Board - New Employment Credit",
-        "publisher": "ca.gov",
+        "label": "New employment credit | FTB.ca.gov",
+        "publisher": "ftb.ca.gov",
         "url": "https://www.ftb.ca.gov/file/business/credits/new-employment-credit/index.html"
       },
       {
-        "label": "California FTB - Business Credits",
-        "publisher": "ca.gov",
-        "url": "https://www.ftb.ca.gov/file/business/credits/index.html"
-      },
-      {
-        "label": "California Franchise Tax Board - California Research Credit",
-        "publisher": "ca.gov",
-        "url": "https://www.ftb.ca.gov/file/business/credits/california-research.html"
-      },
-      {
         "label": "California Franchise Tax Board - New Employment Credit",
-        "publisher": "colorado.gov",
-        "url": "https://oedit.colorado.gov/enterprise-zone-program"
+        "publisher": "ftb.ca.gov",
+        "url": "https://www.ftb.ca.gov/file/business/credits/new-employment-credit/index.html"
       }
     ],
     "difficulty_score": 3,
@@ -1414,12 +1344,12 @@
       },
       {
         "label": "Colorado Secretary of State - Enterprise Zone Regulations, 1 CCR",
-        "publisher": "state.co.us",
+        "publisher": "sos.state.co.us",
         "url": "https://www.sos.state.co.us/CCR/DisplayRule.do?action=ruleinfo&agencyID=122&agencyName=Taxation+Division&deptID=19&deptName=Department+of+Revenue&ruleId=1943&seriesNum=1+CCR+201-13"
       },
       {
         "label": "Colorado General Assembly - 2026 chapter 364, sections 30-32 and 42, official source",
-        "publisher": "colorado.gov",
+        "publisher": "leg.colorado.gov",
         "url": "https://leg.colorado.gov/laws/session-laws/HB26-1289/364/download"
       }
     ],
@@ -1478,18 +1408,18 @@
       },
       {
         "label": "Colorado Secretary of State - Enterprise Zone Regulations, 1 CCR 201-13: current rule and editor's notes",
-        "publisher": "state.co.us",
+        "publisher": "sos.state.co.us",
         "url": "https://www.sos.state.co.us/CCR/DisplayRule.do?action=ruleinfo&agencyID=122&agencyName=Taxation+Division&deptID=19&deptName=Department+of+Revenue&ruleId=1943&seriesNum=1+CCR+201-13"
       },
       {
         "label": "Colorado General Assembly - HB26-1289 enacted summary and 2026 chapter 364, section 30",
-        "publisher": "colorado.gov",
+        "publisher": "leg.colorado.gov",
         "url": "https://leg.colorado.gov/bills/HB26-1289"
       },
       {
-        "label": "Colorado Department of Revenue - Enterprise Zone Tax Guide, revised April 2026, Part 4",
-        "publisher": "colorado.gov",
-        "url": "https://tax.colorado.gov/sites/files/documents/Enterprise_Zone_Tax_Guide_Apr_2026.pdf"
+        "label": "Colorado Enterprise Zone Tax Guide",
+        "publisher": "tax.colorado.gov",
+        "url": "https://tax.colorado.gov/sites/tax/files/documents/Enterprise_Zone_Tax_Guide_Apr_2026.pdf"
       }
     ],
     "difficulty_score": 2,
@@ -1547,12 +1477,12 @@
       },
       {
         "label": "Colorado Secretary of State - Enterprise Zone Regulations, 1 CCR",
-        "publisher": "state.co.us",
+        "publisher": "sos.state.co.us",
         "url": "https://www.sos.state.co.us/CCR/DisplayRule.do?action=ruleinfo&agencyID=122&agencyName=Taxation+Division&deptID=19&deptName=Department+of+Revenue&ruleId=1943&seriesNum=1+CCR+201-13"
       },
       {
         "label": "Colorado General Assembly - 2026 chapter 364, sections 30-32 and 42, official source",
-        "publisher": "colorado.gov",
+        "publisher": "leg.colorado.gov",
         "url": "https://leg.colorado.gov/laws/session-laws/HB26-1289/364/download"
       }
     ],
@@ -1613,12 +1543,12 @@
       },
       {
         "label": "Colorado Secretary of State - Enterprise Zone Regulations, 1 CCR",
-        "publisher": "state.co.us",
+        "publisher": "sos.state.co.us",
         "url": "https://www.sos.state.co.us/CCR/DisplayRule.do?action=ruleinfo&agencyID=122&agencyName=Taxation+Division&deptID=19&deptName=Department+of+Revenue&ruleId=1943&seriesNum=1+CCR+201-13"
       },
       {
         "label": "Colorado General Assembly - 2026 chapter 364, sections 30-32 and 42, official source",
-        "publisher": "colorado.gov",
+        "publisher": "leg.colorado.gov",
         "url": "https://leg.colorado.gov/laws/session-laws/HB26-1289/364/download"
       }
     ],
@@ -1672,29 +1602,14 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Colorado Office of Economic Development - Job Growth Incentive Tax",
+        "label": "Job Growth Incentive Tax Credit | Colorado Office of Economic Development & International Trade",
         "publisher": "choosecolorado.com",
         "url": "https://choosecolorado.com/doing-business/incentives/job-growth-incentive-tax-credit/"
       },
       {
-        "label": "Colorado General Assembly - 2026 Title 39, sections 39-30-103 through official source",
-        "publisher": "olls.info",
-        "url": "https://olls.info/crs/crs2026-title-39.pdf"
-      },
-      {
-        "label": "Colorado Secretary of State - Enterprise Zone Regulations, 1 CCR",
-        "publisher": "state.co.us",
-        "url": "https://www.sos.state.co.us/CCR/DisplayRule.do?action=ruleinfo&agencyID=122&agencyName=Taxation+Division&deptID=19&deptName=Department+of+Revenue&ruleId=1943&seriesNum=1+CCR+201-13"
-      },
-      {
-        "label": "Colorado General Assembly - 2026 chapter 364, sections 30-32 and 42, official source",
-        "publisher": "colorado.gov",
-        "url": "https://leg.colorado.gov/laws/session-laws/HB26-1289/364/download"
-      },
-      {
         "label": "Colorado Office of Economic Development - Job Growth Incentive Tax",
-        "publisher": "colorado.gov",
-        "url": "https://tax.colorado.gov/sites/files/documents/Enterprise_Zone_Tax_Guide_Apr_2026.pdf"
+        "publisher": "choosecolorado.com",
+        "url": "https://choosecolorado.com/doing-business/incentives/job-growth-incentive-tax-credit/"
       }
     ],
     "difficulty_score": 3,
@@ -1745,7 +1660,7 @@
     "official_sources": [
       {
         "label": "Connecticut Department of Revenue Services - Fixed Capital Investment",
-        "publisher": "ct.gov",
+        "publisher": "portal.ct.gov",
         "url": "https://portal.ct.gov/drs/publications/corporation-credit-guide/fixed-capital-investment-01mar2012"
       }
     ],
@@ -1794,9 +1709,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Connecticut Department of Revenue Services - Human Capital",
-        "publisher": "ct.gov",
-        "url": "https://portal.ct.gov/drs/publications/corporation-credit-guide/fixed-capital-investment-01mar2012"
+        "label": "Human Capital Investment Tax Credit 01MAR2012",
+        "publisher": "portal.ct.gov",
+        "url": "https://portal.ct.gov/drs/publications/corporation-credit-guide/human-capital-investment-tax-credit-05feb2024"
       }
     ],
     "difficulty_score": 2,
@@ -1845,7 +1760,7 @@
     "official_sources": [
       {
         "label": "Connecticut Department of Revenue Services - Machinery and official source",
-        "publisher": "ct.gov",
+        "publisher": "portal.ct.gov",
         "url": "https://portal.ct.gov/drs/publications/corporation-credit-guide/machinery-and-equipment-expenditure-tax-credit-01mar2012"
       }
     ],
@@ -1895,9 +1810,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "United States Department of Labor - State Apprenticeship Tax Credits",
-        "publisher": "ct.gov",
-        "url": "https://portal.ct.gov/drs/publications/corporation-credit-guide/machinery-and-equipment-expenditure-tax-credit-01mar2012"
+        "label": "State Tax Credits and Tuition Support | Apprenticeship.gov",
+        "publisher": "apprenticeship.gov",
+        "url": "https://www.apprenticeship.gov/investments-tax-credits-and-tuition-support/state-tax-credits-and-tuition-support"
       }
     ],
     "difficulty_score": 2,
@@ -1946,9 +1861,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Connecticut Department of Revenue Services - Nonincremental",
-        "publisher": "apprenticeship.gov",
-        "url": "https://www.apprenticeship.gov/investments-tax-credits-and-tuition-support/state-tax-credits-and-tuition-support"
+        "label": "Research and Development Nonincremental Expenses 22MAR2022",
+        "publisher": "portal.ct.gov",
+        "url": "https://portal.ct.gov/drs/publications/corporation-credit-guide/research-and-development-nonincremental-expenses-22mar2022"
       }
     ],
     "difficulty_score": 2,
@@ -1997,39 +1912,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Connecticut Department of Revenue Services - Incremental Research",
-        "publisher": "ct.gov",
-        "url": "https://portal.ct.gov/drs/publications/corporation-credit-guide/research-and-development-nonincremental-expenses-22mar2022"
-      },
-      {
-        "label": "Connecticut Department of Revenue Services - Fixed Capital Investment",
-        "publisher": "ct.gov",
+        "label": "Research and Experimental Incremental Expenditures Tax Credit 22MAR2022",
+        "publisher": "portal.ct.gov",
         "url": "https://portal.ct.gov/drs/publications/corporation-credit-guide/research-and-experimental-incremental-expenditures-tax-credit-25jan2017"
-      },
-      {
-        "label": "Connecticut Department of Revenue Services - Human Capital",
-        "publisher": "ct.gov",
-        "url": "https://portal.ct.gov/drs/publications/corporation-credit-guide/fixed-capital-investment-01mar2012"
-      },
-      {
-        "label": "Connecticut Department of Revenue Services - Machinery and official source",
-        "publisher": "ct.gov",
-        "url": "https://portal.ct.gov/drs/publications/corporation-credit-guide/human-capital-investment-tax-credit-05feb2024"
-      },
-      {
-        "label": "United States Department of Labor - State Apprenticeship Tax Credits",
-        "publisher": "ct.gov",
-        "url": "https://portal.ct.gov/drs/publications/corporation-credit-guide/machinery-and-equipment-expenditure-tax-credit-01mar2012"
-      },
-      {
-        "label": "Connecticut Department of Revenue Services - Nonincremental",
-        "publisher": "apprenticeship.gov",
-        "url": "https://www.apprenticeship.gov/investments-tax-credits-and-tuition-support/state-tax-credits-and-tuition-support"
-      },
-      {
-        "label": "Connecticut Department of Revenue Services - Incremental Research",
-        "publisher": "apprenticeship.gov",
-        "url": "https://www.apprenticeship.gov/investments-tax-credits-and-tuition-support/state-tax-credits-and-tuition-support"
       }
     ],
     "difficulty_score": 2,
@@ -2079,7 +1964,7 @@
     "official_sources": [
       {
         "label": "Delaware Division of Revenue - Blue Collar Jobs Act",
-        "publisher": "delaware.gov",
+        "publisher": "revenue.delaware.gov",
         "url": "https://revenue.delaware.gov/business-tax-forms/blue-collar-job-act/"
       }
     ],
@@ -2131,19 +2016,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Delaware Code, Title 30, Sections 2070-2075 - Research Credit",
-        "publisher": "delaware.gov",
-        "url": "https://revenue.delaware.gov/business-tax-forms/blue-collar-job-act/"
-      },
-      {
-        "label": "Delaware Division of Revenue - Blue Collar Jobs Act",
-        "publisher": "delaware.gov",
+        "label": "Delaware Code Online",
+        "publisher": "delcode.delaware.gov",
         "url": "https://delcode.delaware.gov/title30/c020/sc08/index.html"
-      },
-      {
-        "label": "Delaware Code, Title 30, Sections 2070-2075 - Research Credit",
-        "publisher": "floridarevenue.com",
-        "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corp_tax_incent.aspx"
       }
     ],
     "difficulty_score": 2,
@@ -2193,9 +2068,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Florida Department of Revenue - Corporate Income Tax Incentives",
+        "label": "Research and Development Tax Credit for Florida Corporate Income Tax — 2026 Allocation Report",
         "publisher": "floridarevenue.com",
-        "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corp_tax_incent.aspx"
+        "url": "https://floridarevenue.com/taxes/Documents/flCitRDCredit.pdf"
       }
     ],
     "difficulty_score": 3,
@@ -2296,24 +2171,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Florida Department of Revenue - Corporate Tax Incentives, Rural Job",
+        "label": "Florida Dept. of Revenue - Corporate Tax Incentives",
         "publisher": "floridarevenue.com",
-        "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corp_tax_incent.aspx"
-      },
-      {
-        "label": "Florida Department of Revenue - Corporate Income Tax Incentives",
-        "publisher": "floridarevenue.com",
-        "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx"
-      },
-      {
-        "label": "Florida Department of Revenue - Individuals with Unique Abilities, official source",
-        "publisher": "floridarevenue.com",
-        "url": "https://floridarevenue.com/taxes/tips/Documents/TIP_24C01-01.pdf"
-      },
-      {
-        "label": "Florida Department of Revenue - Corporate Tax Incentives, Rural Job",
-        "publisher": "georgia.gov",
-        "url": "https://dor.georgia.gov/taxes/business-taxes"
+        "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corp_tax_incent.aspx#jobs"
       }
     ],
     "difficulty_score": 2,
@@ -2365,9 +2225,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Georgia Department of Revenue - Tax Credits",
-        "publisher": "georgia.gov",
-        "url": "https://dor.georgia.gov/taxes/tax-credits"
+        "label": "Employer’s Jobs Tax Credit | Department of Revenue",
+        "publisher": "dor.georgia.gov",
+        "url": "https://dor.georgia.gov/employers-jobs-tax-credit"
       }
     ],
     "difficulty_score": 2,
@@ -2418,9 +2278,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Georgia Department of Revenue - Tax Credits",
-        "publisher": "georgia.gov",
-        "url": "https://dor.georgia.gov/taxes/tax-credits"
+        "label": "Manufacturer’s Investment Tax Credit | Department of Revenue",
+        "publisher": "dor.georgia.gov",
+        "url": "https://dor.georgia.gov/manufacturers-investment-tax-credit"
       }
     ],
     "difficulty_score": 2,
@@ -2470,9 +2330,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Georgia Department of Revenue - Optional Investment Tax Credit",
-        "publisher": "georgia.gov",
-        "url": "https://dor.georgia.gov/taxes/tax-credits"
+        "label": "Optional Investment Tax Credit | Department of Revenue",
+        "publisher": "dor.georgia.gov",
+        "url": "https://dor.georgia.gov/optional-investment-tax-credit"
       }
     ],
     "difficulty_score": 3,
@@ -2522,9 +2382,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Georgia Department of Revenue - Tax Credits",
-        "publisher": "georgia.gov",
-        "url": "https://dor.georgia.gov/taxes/tax-credits"
+        "label": "Research Tax Credit | Department of Revenue",
+        "publisher": "dor.georgia.gov",
+        "url": "https://dor.georgia.gov/research-tax-credit"
       }
     ],
     "difficulty_score": 2,
@@ -2574,19 +2434,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Georgia Department of Revenue - Tax Credits",
-        "publisher": "georgia.gov",
-        "url": "https://dor.georgia.gov/taxes/tax-credits"
-      },
-      {
-        "label": "Georgia Department of Revenue - Tax Credits",
-        "publisher": "georgia.gov",
-        "url": "https://dor.georgia.gov/optional-investment-tax-credit"
-      },
-      {
-        "label": "Georgia Department of Revenue - Optional Investment Tax Credit",
-        "publisher": "hawaii.gov",
-        "url": "https://tax.hawaii.gov/forms/a1_1alphalist/"
+        "label": "Employer’s Credit for Approved Employee Retraining | Department of Revenue",
+        "publisher": "dor.georgia.gov",
+        "url": "https://dor.georgia.gov/employers-credit-approved-employee-retraining"
       }
     ],
     "difficulty_score": 2,
@@ -2636,9 +2486,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Hawaii Department of Taxation - Forms, including the relevant credit",
-        "publisher": "hawaii.gov",
-        "url": "https://tax.hawaii.gov/forms/a1_1alphalist/"
+        "label": "Renewable Energy Technologies Income Tax Credit (RETITC) – HRS §235-12.5 | Department of Taxation",
+        "publisher": "tax.hawaii.gov",
+        "url": "https://tax.hawaii.gov/geninfo/renewable/"
       }
     ],
     "difficulty_score": 2,
@@ -2687,19 +2537,14 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Hawaii Technology Development Corporation - Tax Credit for Research",
+        "label": "Hawaiʻi Tax Credit for Research Activities – Hawaiʻi Technology Development Corporation",
         "publisher": "htdc.org",
         "url": "https://www.htdc.org/programs/hawai%CA%BBi-tax-credit-for-research-activities/"
       },
       {
-        "label": "Hawaii Department of Taxation - Forms, including the relevant credit",
-        "publisher": "hawaii.gov",
-        "url": "https://tax.hawaii.gov/forms/a1_1alphalist/"
-      },
-      {
         "label": "Hawaii Technology Development Corporation - Tax Credit for Research",
-        "publisher": "idaho.gov",
-        "url": "https://tax.idaho.gov/taxes/sales-use/sales-and-use-tax-refund-requests/"
+        "publisher": "htdc.org",
+        "url": "https://www.htdc.org/programs/hawai%CA%BBi-tax-credit-for-research-activities/"
       }
     ],
     "difficulty_score": 3,
@@ -2746,9 +2591,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Idaho State Tax Commission - Business Advantage Small Employer",
-        "publisher": "idaho.gov",
-        "url": "https://tax.idaho.gov/taxes/sales-use/sales-and-use-tax-refund-requests/"
+        "label": "Form 83 — Small Employer Investment Tax Credit — 2025",
+        "publisher": "tax.idaho.gov",
+        "url": "https://tax.idaho.gov/document-mngr/forms_efo00011/"
       }
     ],
     "difficulty_score": 3,
@@ -2796,9 +2641,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Idaho State Tax Commission - Business Income Tax Credits",
-        "publisher": "idaho.gov",
-        "url": "https://tax.idaho.gov/taxes/sales-use/sales-and-use-tax-refund-requests/"
+        "label": "Form 49 — Investment Tax Credit — 2025",
+        "publisher": "tax.idaho.gov",
+        "url": "https://tax.idaho.gov/document-mngr/forms_efo00030/"
       }
     ],
     "difficulty_score": 1,
@@ -2850,7 +2695,7 @@
     "official_sources": [
       {
         "label": "Idaho State Tax Commission - Business Income Tax Credits",
-        "publisher": "idaho.gov",
+        "publisher": "tax.idaho.gov",
         "url": "https://tax.idaho.gov/document-mngr/forms_efo00006/"
       }
     ],
@@ -2901,24 +2746,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Idaho Commerce - Incentives",
-        "publisher": "idaho.gov",
-        "url": "https://tax.idaho.gov/document-mngr/forms_efo00006/"
-      },
-      {
-        "label": "Idaho State Tax Commission - Business Advantage Small Employer",
-        "publisher": "idaho.gov",
+        "label": "Tax Incentives - Idaho Commerce",
+        "publisher": "commerce.idaho.gov",
         "url": "https://commerce.idaho.gov/incentives/tax-incentives/"
-      },
-      {
-        "label": "Idaho State Tax Commission - Business Income Tax Credits",
-        "publisher": "idaho.gov",
-        "url": "https://tax.idaho.gov/taxes/sales-use/sales-and-use-tax-refund-requests/"
-      },
-      {
-        "label": "Idaho Commerce - Incentives",
-        "publisher": "illinois.gov",
-        "url": "https://dceo.illinois.gov/expandrelocate/incentives/ilapprenticeshiptaxcredit.html"
       }
     ],
     "difficulty_score": 3,
@@ -2969,7 +2799,7 @@
     "official_sources": [
       {
         "label": "Illinois Department of Commerce and Economic Opportunity -",
-        "publisher": "illinois.gov",
+        "publisher": "dceo.illinois.gov",
         "url": "https://dceo.illinois.gov/expandrelocate/incentives/ilapprenticeshiptaxcredit.html"
       }
     ],
@@ -3019,9 +2849,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Illinois DCEO - EDGE",
-        "publisher": "illinois.gov",
-        "url": "https://dceo.illinois.gov/expandrelocate/incentives/ilapprenticeshiptaxcredit.html"
+        "label": "EDGE FAQ",
+        "publisher": "dceo.illinois.gov",
+        "url": "https://dceo.illinois.gov/expandrelocate/incentives/edge/edge-faq.html"
       }
     ],
     "difficulty_score": 3,
@@ -3072,9 +2902,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Illinois Department of Revenue - Schedule 1299-I",
-        "publisher": "illinois.gov",
-        "url": "https://dceo.illinois.gov/expandrelocate/incentives/edge/edge-faq.html"
+        "label": "2025 Schedule 1299-I, Income Tax Credits Information and Worksheets",
+        "publisher": "tax.illinois.gov",
+        "url": "https://tax.illinois.gov/forms/incometax/currentyear/iit-bit-shared-forms/schedule-1299-i.html"
       }
     ],
     "difficulty_score": 3,
@@ -3127,24 +2957,14 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Illinois Department of Revenue - Schedule 1299-I",
-        "publisher": "illinois.gov",
+        "label": "2025 Schedule 1299-I, Income Tax Credits Information and Worksheets",
+        "publisher": "tax.illinois.gov",
         "url": "https://tax.illinois.gov/forms/incometax/currentyear/iit-bit-shared-forms/schedule-1299-i.html"
       },
       {
-        "label": "Illinois Department of Commerce and Economic Opportunity -",
-        "publisher": "illinois.gov",
-        "url": "https://dceo.illinois.gov/expandrelocate/incentives/ilapprenticeshiptaxcredit.html"
-      },
-      {
-        "label": "Illinois DCEO - EDGE",
-        "publisher": "illinois.gov",
-        "url": "https://dceo.illinois.gov/expandrelocate/incentives/edge/edge-faq.html"
-      },
-      {
         "label": "Illinois Department of Revenue - Schedule 1299-I",
-        "publisher": "in.gov",
-        "url": "https://www.iedc.in.gov/indiana-advantages/investments"
+        "publisher": "tax.illinois.gov",
+        "url": "https://tax.illinois.gov/forms/incometax/currentyear/iit-bit-shared-forms/schedule-1299-i.html"
       }
     ],
     "difficulty_score": 2,
@@ -3194,9 +3014,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Indiana EDC - Incentives",
-        "publisher": "in.gov",
-        "url": "https://www.iedc.in.gov/indiana-advantages/investments"
+        "label": "Community Revitalization Enhancement District Tax Credit",
+        "publisher": "iedc.in.gov",
+        "url": "https://www.iedc.in.gov/indiana-advantages/investments/community-revitalization-enhancement-district-tax-credit"
       }
     ],
     "difficulty_score": 3,
@@ -3248,9 +3068,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Indiana EDC - Incentives",
-        "publisher": "in.gov",
-        "url": "https://www.iedc.in.gov/indiana-advantages/investments"
+        "label": "Overview",
+        "publisher": "iedc.in.gov",
+        "url": "https://www.iedc.in.gov/indiana-advantages/investments/economic-development-for-a-growing-economy-tax-credit"
       }
     ],
     "difficulty_score": 3,
@@ -3299,9 +3119,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Indiana EDC - Incentives",
-        "publisher": "in.gov",
-        "url": "https://www.iedc.in.gov/indiana-advantages/investments"
+        "label": "Overview",
+        "publisher": "iedc.in.gov",
+        "url": "https://www.iedc.in.gov/indiana-advantages/investments/hoosier-business-investment-tax-credit"
       }
     ],
     "difficulty_score": 3,
@@ -3349,19 +3169,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Indiana Department of Revenue - Research Expense Credit",
-        "publisher": "in.gov",
-        "url": "https://www.iedc.in.gov/indiana-advantages/investments"
-      },
-      {
-        "label": "Indiana EDC - Incentives",
+        "label": "DOR: Research Expense Credit",
         "publisher": "in.gov",
         "url": "https://www.in.gov/dor/i-am-a/individual/tax-credits/research-expense-credit/"
-      },
-      {
-        "label": "Indiana Department of Revenue - Research Expense Credit",
-        "publisher": "opportunityiowa.gov",
-        "url": "https://opportunityiowa.gov/community/historic-preservation/historic-preservation-tax-credits/state-historic-preservation-tax-credit-program"
       }
     ],
     "difficulty_score": 2,
@@ -3464,19 +3274,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Iowa Economic Development Authority - Research and Development",
-        "publisher": "opportunityiowa.gov",
-        "url": "https://opportunityiowa.gov/community/historic-preservation/historic-preservation-tax-credits/state-historic-preservation-tax-credit-program"
-      },
-      {
-        "label": "Iowa EDA - Historic Preservation Tax Credit",
+        "label": "Iowa Research & Development (R&D) Tax Credit Program — Program Overview",
         "publisher": "opportunityiowa.gov",
         "url": "https://opportunityiowa.gov/media/8016/download?inline="
-      },
-      {
-        "label": "Iowa Economic Development Authority - Research and Development",
-        "publisher": "ksrevenue.gov",
-        "url": "https://www.ksrevenue.gov/prtaxcredits-hpip.html"
       }
     ],
     "difficulty_score": 3,
@@ -3679,29 +3479,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Kansas Department of Revenue - Research and Development Credit",
+        "label": "Kansas Department of Revenue Tax Policy - Short Line Railroad Tax Credit",
         "publisher": "ksrevenue.gov",
-        "url": "https://www.ksrevenue.gov/prtaxcredits-research.html"
-      },
-      {
-        "label": "Kansas Department of Revenue - Tax Credits",
-        "publisher": "ksrevenue.gov",
-        "url": "https://www.ksrevenue.gov/prtaxcredits.html"
-      },
-      {
-        "label": "Kansas Department of Revenue - HPIP",
-        "publisher": "ksrevenue.gov",
-        "url": "https://www.ksrevenue.gov/prtaxcredits-hpip.html"
-      },
-      {
-        "label": "Kansas Department of Revenue - Tax Credits",
-        "publisher": "ky.gov",
-        "url": "https://revenue.ky.gov/Business/Pages/Tax-Credits.aspx"
-      },
-      {
-        "label": "Kansas Department of Revenue - Research and Development Credit",
-        "publisher": "ky.gov",
-        "url": "https://revenue.ky.gov/Business/Pages/Tax-Credits.aspx"
+        "url": "https://www.ksrevenue.gov/prtaxcredits-shortline.html"
       }
     ],
     "difficulty_score": 2,
@@ -3747,9 +3527,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Kentucky Department of Revenue - Tax Credits",
-        "publisher": "ky.gov",
-        "url": "https://revenue.ky.gov/Business/Pages/Tax-Credits.aspx"
+        "label": "Rehabilitation Tax Credits - \r\n        \r\n    Kentucky Heritage Council",
+        "publisher": "heritage.ky.gov",
+        "url": "https://heritage.ky.gov/historic-buildings/rehab-tax-credits/Pages/overview.aspx"
       }
     ],
     "difficulty_score": 3,
@@ -3801,9 +3581,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Kentucky Cabinet for Economic Development - Financial Incentives",
-        "publisher": "ky.gov",
-        "url": "https://newkentuckyhome.ky.gov/Locating_Expanding/Financial_Incentives"
+        "label": "Just the Facts: Kentucky Business Investment Program — July 2026",
+        "publisher": "cedky.com",
+        "url": "https://cedky.com/cdn/1740_KBIFactSheet.pdf?7-6"
       }
     ],
     "difficulty_score": 3,
@@ -3852,9 +3632,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Kentucky Cabinet for Economic Development - Financial Incentives",
-        "publisher": "ky.gov",
-        "url": "https://newkentuckyhome.ky.gov/Locating_Expanding/Financial_Incentives"
+        "label": "Just the Facts: Kentucky Reinvestment Act (KRA) — July 2023",
+        "publisher": "cedky.com",
+        "url": "https://cedky.com/cdn/1740_KRAFactSheet.pdf"
       }
     ],
     "difficulty_score": 3,
@@ -3901,19 +3681,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Kentucky Department of Revenue - Tax Credits",
-        "publisher": "ky.gov",
-        "url": "https://newkentuckyhome.ky.gov/Locating_Expanding/Financial_Incentives"
-      },
-      {
-        "label": "Kentucky Department of Revenue - Tax Credits",
-        "publisher": "ky.gov",
-        "url": "https://revenue.ky.gov/Business/Pages/Tax-Credits.aspx"
-      },
-      {
-        "label": "Kentucky Cabinet for Economic Development - Financial Incentives",
-        "publisher": "opportunitylouisiana.gov",
-        "url": "https://www.opportunitylouisiana.gov/incentive/industrial-tax-exemption"
+        "label": "Qualified Research Facility Tax Credit - \r\n        \r\n    Department of Revenue",
+        "publisher": "revenue.ky.gov",
+        "url": "https://revenue.ky.gov/Business/Pages/Qualified-Research-Facility-Tax-Credit.aspx"
       }
     ],
     "difficulty_score": 1,
@@ -3964,9 +3734,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Louisiana Department of Revenue - Revenue Information Bulletin 26-011",
-        "publisher": "opportunitylouisiana.gov",
-        "url": "https://www.opportunitylouisiana.gov/incentive/industrial-tax-exemption"
+        "label": "Revenue Information Bulletin No. 26-011 — Acts 11 and 412: Changes to the Inventory Tax Credit",
+        "publisher": "dam.ldr.la.gov",
+        "url": "https://dam.ldr.la.gov/lawspolicies/RIB%2026-011.pdf"
       }
     ],
     "difficulty_score": 2,
@@ -4015,19 +3785,14 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Louisiana Economic Development - Research and Development Tax",
+        "label": "Research and Development Tax Credit - Incentives | LED",
         "publisher": "opportunitylouisiana.gov",
         "url": "https://www.opportunitylouisiana.gov/incentive/research-and-development-tax-credit"
       },
       {
-        "label": "Louisiana Department of Revenue - Revenue Information Bulletin 26-011",
-        "publisher": "la.gov",
-        "url": "https://dam.ldr.la.gov/lawspolicies/RIB%2026-011.pdf"
-      },
-      {
         "label": "Louisiana Economic Development - Research and Development Tax",
-        "publisher": "maine.gov",
-        "url": "https://www.maine.gov/decd/business-development/financial-incentives-resources/incentives/dirigo"
+        "publisher": "opportunitylouisiana.gov",
+        "url": "https://www.opportunitylouisiana.gov/incentive/research-and-development-tax-credit"
       }
     ],
     "difficulty_score": 3,
@@ -4177,9 +3942,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Maine Revenue Services - Income Tax Credits",
-        "publisher": "maine.gov",
-        "url": "https://www.maine.gov/revenue/taxes/tax-relief-credits-programs/income-tax-credits"
+        "label": "Title 36, §5219-XX: Renewable chemicals tax credit",
+        "publisher": "legislature.maine.gov",
+        "url": "https://legislature.maine.gov/statutes/36/title36sec5219-XX.html"
       }
     ],
     "difficulty_score": 2,
@@ -4228,24 +3993,14 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Maine Legislature - Title 36, section 5219-K",
-        "publisher": "maine.gov",
-        "url": "https://www.maine.gov/revenue/taxes/tax-relief-credits-programs/income-tax-credits"
-      },
-      {
-        "label": "Maine Department of Economic and Community Development - Dirigo",
-        "publisher": "maine.gov",
+        "label": "Title 36, §5219-K: Research expense tax credit",
+        "publisher": "legislature.maine.gov",
         "url": "https://legislature.maine.gov/statutes/36/title36sec5219-K.html"
       },
       {
-        "label": "Maine Revenue Services - Income Tax Credits",
-        "publisher": "maine.gov",
-        "url": "https://www.maine.gov/decd/business-development/financial-incentives-resources/incentives/dirigo"
-      },
-      {
-        "label": "Maine Legislature - Title 36, section 5219-K",
-        "publisher": "maryland.gov",
-        "url": "https://business.maryland.gov/why-maryland/incentives/"
+        "label": "Title 36, Â§5219-K:Â Research expense tax credit",
+        "publisher": "legislature.maine.gov",
+        "url": "https://legislature.maine.gov/statutes/36/title36sec5219-K.html"
       }
     ],
     "difficulty_score": 2,
@@ -4294,9 +4049,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Maryland Commerce - Business Programs",
-        "publisher": "maryland.gov",
-        "url": "https://business.maryland.gov/why-maryland/incentives/"
+        "label": "Tax Credits for Historic Revitalization | Maryland Historical Trust",
+        "publisher": "mht.maryland.gov",
+        "url": "https://mht.maryland.gov/funding/tax-credits"
       }
     ],
     "difficulty_score": 3,
@@ -4348,9 +4103,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Maryland Commerce - Business Programs",
-        "publisher": "maryland.gov",
-        "url": "https://business.maryland.gov/why-maryland/incentives/"
+        "label": "Job Creation Tax Credit | Maryland Department of Commerce",
+        "publisher": "commerce.maryland.gov",
+        "url": "https://commerce.maryland.gov/fund/programs-for-businesses/job-creation-tax-credit"
       }
     ],
     "difficulty_score": 3,
@@ -4401,9 +4156,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Maryland Department of Commerce - One Maryland Tax Credit",
-        "publisher": "maryland.gov",
-        "url": "https://business.maryland.gov/why-maryland/incentives/"
+        "label": "Business Tax Credits | One Maryland Project Tax Credit | Maryland Department of Commerce",
+        "publisher": "commerce.maryland.gov",
+        "url": "https://commerce.maryland.gov/fund/programs-for-businesses/one-maryland-tax-credit"
       }
     ],
     "difficulty_score": 3,
@@ -4454,24 +4209,14 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Maryland Department of Commerce - Research and Development Tax",
-        "publisher": "maryland.gov",
+        "label": "Business Tax Credits | Research and Development | Maryland Department of Commerce",
+        "publisher": "commerce.maryland.gov",
         "url": "https://commerce.maryland.gov/fund/programs-for-businesses/research-and-development-tax-credit"
       },
       {
-        "label": "Maryland Commerce - Business Programs",
-        "publisher": "maryland.gov",
-        "url": "https://business.maryland.gov/why-maryland/incentives/"
-      },
-      {
-        "label": "Maryland Department of Commerce - One Maryland Tax Credit",
-        "publisher": "maryland.gov",
-        "url": "https://commerce.maryland.gov/fund/programs-for-businesses/one-maryland-tax-credit"
-      },
-      {
         "label": "Maryland Department of Commerce - Research and Development Tax",
-        "publisher": "mass.gov",
-        "url": "https://www.mass.gov/info-details/economic-development-incentive-program-edip"
+        "publisher": "commerce.maryland.gov",
+        "url": "https://commerce.maryland.gov/fund/programs-for-businesses/research-and-development-tax-credit"
       }
     ],
     "difficulty_score": 3,
@@ -4571,9 +4316,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Massachusetts Department of Revenue - Tax Credits",
+        "label": "Investment Tax Credit | Mass.gov",
         "publisher": "mass.gov",
-        "url": "https://www.mass.gov/info-details/economic-development-incentive-program-edip"
+        "url": "https://www.mass.gov/info-details/investment-tax-credit"
       }
     ],
     "difficulty_score": 1,
@@ -4622,19 +4367,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Massachusetts Department of Revenue - Tax Credits",
+        "label": "Research Tax Credit | Mass.gov",
         "publisher": "mass.gov",
-        "url": "https://www.mass.gov/info-details/business-tax-credits"
-      },
-      {
-        "label": "Massachusetts - EDIP",
-        "publisher": "mass.gov",
-        "url": "https://www.mass.gov/info-details/economic-development-incentive-program-edip"
-      },
-      {
-        "label": "Massachusetts Department of Revenue - Tax Credits",
-        "publisher": "michigan.gov",
-        "url": "https://www.michigan.gov/taxes/business-taxes/rdcredit"
+        "url": "https://www.mass.gov/info-details/research-tax-credit"
       }
     ],
     "difficulty_score": 2,
@@ -4682,14 +4417,14 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Michigan Treasury - Research and Development Credit",
+        "label": "Research and Development (R&D) Tax Credit",
         "publisher": "michigan.gov",
         "url": "https://www.michigan.gov/taxes/business-taxes/rdcredit"
       },
       {
         "label": "Michigan Treasury - Research and Development Credit",
-        "publisher": "mn.us",
-        "url": "https://www.revenue.state.mn.us/corporation-franchise-tax"
+        "publisher": "michigan.gov",
+        "url": "https://www.michigan.gov/taxes/business-taxes/rdcredit"
       }
     ],
     "difficulty_score": 3,
@@ -4740,9 +4475,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Minnesota Department of Revenue - Business Tax Credits",
-        "publisher": "mn.us",
-        "url": "https://www.revenue.state.mn.us/corporation-franchise-tax"
+        "label": "Credit for Increasing Research Activities | Minnesota Department of Revenue",
+        "publisher": "revenue.state.mn.us",
+        "url": "https://www.revenue.state.mn.us/credit-increasing-research-activities"
       }
     ],
     "difficulty_score": 2,
@@ -4793,14 +4528,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Minnesota Department of Revenue - Business Tax Credits",
-        "publisher": "mn.us",
-        "url": "https://www.revenue.state.mn.us/corporation-franchise-tax"
-      },
-      {
-        "label": "Minnesota Department of Revenue - Business Tax Credits",
-        "publisher": "mississippi.org",
-        "url": "https://mississippi.org/"
+        "label": "Historic Structure Rehabilitation Credit | Minnesota Department of Revenue",
+        "publisher": "revenue.state.mn.us",
+        "url": "https://www.revenue.state.mn.us/historic-structure-rehabilitation-credit"
       }
     ],
     "difficulty_score": 3,
@@ -4851,9 +4581,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Mississippi Development Authority - Incentives",
-        "publisher": "mississippi.org",
-        "url": "https://mississippi.org/doing-business/incentives/"
+        "label": "Mississippi Tax Incentives, Exemptions, Credits, and Rebates — Revised January 9, 2026",
+        "publisher": "dor.ms.gov",
+        "url": "https://www.dor.ms.gov/sites/default/files/resources/Incentives%20and%20Credits/2026%20Incentive%20Booklet%20v1.2.pdf"
       }
     ],
     "difficulty_score": 3,
@@ -4905,9 +4635,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Mississippi Development Authority - Incentives",
-        "publisher": "mississippi.org",
-        "url": "https://mississippi.org/doing-business/incentives/"
+        "label": "Mississippi Tax Incentives, Exemptions, Credits, and Rebates — Revised January 9, 2026",
+        "publisher": "dor.ms.gov",
+        "url": "https://www.dor.ms.gov/sites/default/files/resources/Incentives%20and%20Credits/2026%20Incentive%20Booklet%20v1.2.pdf"
       }
     ],
     "difficulty_score": 3,
@@ -4956,9 +4686,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Mississippi Development Authority - Incentives",
-        "publisher": "mississippi.org",
-        "url": "https://mississippi.org/doing-business/incentives/"
+        "label": "Mississippi Tax Incentives, Exemptions, Credits, and Rebates — Revised January 9, 2026",
+        "publisher": "dor.ms.gov",
+        "url": "https://www.dor.ms.gov/sites/default/files/resources/Incentives%20and%20Credits/2026%20Incentive%20Booklet%20v1.2.pdf"
       }
     ],
     "difficulty_score": 3,
@@ -5008,9 +4738,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Mississippi Development Authority - Incentives",
-        "publisher": "mississippi.org",
-        "url": "https://mississippi.org/doing-business/incentives/"
+        "label": "Mississippi Tax Incentives, Exemptions, Credits, and Rebates — Revised January 9, 2026",
+        "publisher": "dor.ms.gov",
+        "url": "https://www.dor.ms.gov/sites/default/files/resources/Incentives%20and%20Credits/2026%20Incentive%20Booklet%20v1.2.pdf"
       }
     ],
     "difficulty_score": 2,
@@ -5060,9 +4790,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Mississippi Development Authority - Incentives",
-        "publisher": "mississippi.org",
-        "url": "https://mississippi.org/doing-business/incentives/"
+        "label": "Mississippi Tax Incentives, Exemptions, Credits, and Rebates — Revised January 9, 2026",
+        "publisher": "dor.ms.gov",
+        "url": "https://www.dor.ms.gov/sites/default/files/resources/Incentives%20and%20Credits/2026%20Incentive%20Booklet%20v1.2.pdf"
       }
     ],
     "difficulty_score": 1,
@@ -5111,19 +4841,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Mississippi Development Authority - Skills Training Income Tax Credit",
-        "publisher": "mississippi.org",
-        "url": "https://mississippi.org/doing-business/incentives/"
-      },
-      {
-        "label": "Mississippi Development Authority - Incentives",
-        "publisher": "mississippi.org",
-        "url": "https://mississippi.org/wp-content/uploads/skills-training-credits.pdf"
-      },
-      {
-        "label": "Mississippi Development Authority - Skills Training Income Tax Credit",
-        "publisher": "mo.gov",
-        "url": "https://ded.mo.gov/programs/business/missouri-works"
+        "label": "Mississippi Tax Incentives, Exemptions, Credits, and Rebates — Revised January 9, 2026",
+        "publisher": "dor.ms.gov",
+        "url": "https://www.dor.ms.gov/sites/default/files/resources/Incentives%20and%20Credits/2026%20Incentive%20Booklet%20v1.2.pdf"
       }
     ],
     "difficulty_score": 2,
@@ -5173,7 +4893,7 @@
     "official_sources": [
       {
         "label": "Missouri Department of Economic Development - Missouri Works",
-        "publisher": "mo.gov",
+        "publisher": "ded.mo.gov",
         "url": "https://ded.mo.gov/programs/business/missouri-works"
       }
     ],
@@ -5226,7 +4946,7 @@
     "official_sources": [
       {
         "label": "Missouri Department of Economic Development - Investment Works",
-        "publisher": "mo.gov",
+        "publisher": "ded.mo.gov",
         "url": "https://ded.mo.gov/new-programs/missouri-works-investment-works"
       }
     ],
@@ -5278,9 +4998,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Missouri Department of Economic Development - Qualified Research",
-        "publisher": "mo.gov",
-        "url": "https://ded.mo.gov/new-programs/missouri-works-investment-works"
+        "label": "Qualified Research Expense Tax Credit Program | Department of Economic Development",
+        "publisher": "ded.mo.gov",
+        "url": "https://ded.mo.gov/programs/business/QRE"
       }
     ],
     "difficulty_score": 3,
@@ -5329,29 +5049,14 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Missouri Revised Statutes §135.305",
-        "publisher": "mo.gov",
+        "label": "Missouri Revisor of Statutes - Revised Statutes of Missouri,  RSMo Section 135.305",
+        "publisher": "revisor.mo.gov",
         "url": "https://www.revisor.mo.gov/main/OneSection.aspx?section=135.305"
       },
       {
-        "label": "Missouri Department of Economic Development - Missouri Works",
-        "publisher": "mo.gov",
-        "url": "https://ded.mo.gov/programs/business/missouri-works"
-      },
-      {
-        "label": "Missouri Department of Economic Development - Investment Works",
-        "publisher": "mo.gov",
-        "url": "https://ded.mo.gov/new-programs/missouri-works-investment-works"
-      },
-      {
-        "label": "Missouri Department of Economic Development - Qualified Research",
-        "publisher": "mo.gov",
-        "url": "https://ded.mo.gov/programs/business/QRE"
-      },
-      {
         "label": "Missouri Revised Statutes §135.305",
-        "publisher": "mt.gov",
-        "url": "https://revenue.mt.gov/taxes/tax-credits/apprenticeship-tax-credit"
+        "publisher": "revisor.mo.gov",
+        "url": "https://www.revisor.mo.gov/main/OneSection.aspx?section=135.305"
       }
     ],
     "difficulty_score": 2,
@@ -5401,7 +5106,7 @@
     "official_sources": [
       {
         "label": "Montana Department of Revenue - Apprenticeship Tax Credit",
-        "publisher": "mt.gov",
+        "publisher": "revenue.mt.gov",
         "url": "https://revenue.mt.gov/taxes/tax-credits/apprenticeship-tax-credit"
       }
     ],
@@ -5451,9 +5156,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Montana Department of Revenue - Preservation Credit",
-        "publisher": "mt.gov",
-        "url": "https://revenue.mt.gov/taxes/tax-credits/apprenticeship-tax-credit"
+        "label": "Historic Buildings Preservation Credit",
+        "publisher": "revenue.mt.gov",
+        "url": "https://revenue.mt.gov/taxes/tax-credits/preservation-credit"
       }
     ],
     "difficulty_score": 2,
@@ -5503,9 +5208,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Montana Department of Revenue - Income Tax Credits",
-        "publisher": "mt.gov",
-        "url": "https://revenue.mt.gov/taxes/tax-credits/preservation-credit"
+        "label": "Jobs Growth Incentive Credit",
+        "publisher": "revenue.mt.gov",
+        "url": "https://revenue.mt.gov/taxes/tax-credits/jobs-growth-incentive-credit"
       }
     ],
     "difficulty_score": 2,
@@ -5554,29 +5259,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Montana Department of Revenue - Recycle Credit",
-        "publisher": "mt.gov",
-        "url": "https://revenue.mt.gov/taxes/#incomeTaxCredits"
-      },
-      {
-        "label": "Montana Department of Revenue - Apprenticeship Tax Credit",
-        "publisher": "mt.gov",
+        "label": "Recycle Credit",
+        "publisher": "revenue.mt.gov",
         "url": "https://revenue.mt.gov/taxes/tax-credits/recycle-credit"
-      },
-      {
-        "label": "Montana Department of Revenue - Preservation Credit",
-        "publisher": "mt.gov",
-        "url": "https://revenue.mt.gov/taxes/tax-credits/apprenticeship-tax-credit"
-      },
-      {
-        "label": "Montana Department of Revenue - Income Tax Credits",
-        "publisher": "mt.gov",
-        "url": "https://revenue.mt.gov/taxes/tax-credits/preservation-credit"
-      },
-      {
-        "label": "Montana Department of Revenue - Recycle Credit",
-        "publisher": "nebraska.gov",
-        "url": "https://revenue.nebraska.gov/incentives/imagine-nebraska-act"
       }
     ],
     "difficulty_score": 2,
@@ -5628,7 +5313,7 @@
     "official_sources": [
       {
         "label": "Nebraska Department of Revenue - ImagiNE Nebraska Act",
-        "publisher": "nebraska.gov",
+        "publisher": "revenue.nebraska.gov",
         "url": "https://revenue.nebraska.gov/incentives/imagine-nebraska-act"
       }
     ],
@@ -5680,9 +5365,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Nebraska DED - Incentives",
-        "publisher": "nebraska.gov",
-        "url": "https://opportunity.nebraska.gov/programs/incentives/"
+        "label": "Microenterprise Tax Credit Guide | Nebraska Department of Revenue",
+        "publisher": "revenue.nebraska.gov",
+        "url": "https://revenue.nebraska.gov/incentives/microenterprise-tax-credit-guide"
       }
     ],
     "difficulty_score": 3,
@@ -5733,9 +5418,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Nebraska Department of Revenue - Research and Development Act",
-        "publisher": "nebraska.gov",
-        "url": "https://opportunity.nebraska.gov/programs/incentives/"
+        "label": "Nebraska Advantage Research and Development Act (LB 312) | Nebraska Department of Revenue",
+        "publisher": "revenue.nebraska.gov",
+        "url": "https://revenue.nebraska.gov/incentives/research-development"
       }
     ],
     "difficulty_score": 2,
@@ -5785,9 +5470,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Nebraska DED - Incentives",
-        "publisher": "nebraska.gov",
-        "url": "https://revenue.nebraska.gov/incentives/research-development"
+        "label": "Renewable Chemical Production Tax Credit Act - Nebraska Department of Economic Development",
+        "publisher": "opportunity.nebraska.gov",
+        "url": "https://opportunity.nebraska.gov/programs/incentives/renewable-chemical-production/"
       }
     ],
     "difficulty_score": 3,
@@ -5833,24 +5518,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Nebraska DED - Incentives",
-        "publisher": "nebraska.gov",
-        "url": "https://opportunity.nebraska.gov/programs/incentives/"
-      },
-      {
-        "label": "Nebraska Department of Revenue - ImagiNE Nebraska Act",
-        "publisher": "nebraska.gov",
-        "url": "https://revenue.nebraska.gov/incentives/imagine-nebraska-act"
-      },
-      {
-        "label": "Nebraska DED - Incentives",
-        "publisher": "nebraska.gov",
-        "url": "https://revenue.nebraska.gov/incentives/research-development"
-      },
-      {
-        "label": "Nebraska Department of Revenue - Research and Development Act",
-        "publisher": "nebraska.gov",
-        "url": "https://revenue.nebraska.gov/incentives/research-development"
+        "label": "Nebraska Shortline Rail Modernization Act Application | Nebraska Department of Revenue",
+        "publisher": "revenue.nebraska.gov",
+        "url": "https://revenue.nebraska.gov/incentives/nebraska-shortline-rail-modernization-act-application"
       }
     ],
     "difficulty_score": 2,
@@ -5949,38 +5619,38 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "New Hampshire Department of Business and Economic Affairs - Economic Revitalization Zones",
-        "publisher": "nheconomy.com",
-        "url": "https://www.nheconomy.com/grow/business-loans/revitalization-zone"
+        "label": "Section 77-A:5 Credits.",
+        "publisher": "gc.nh.gov",
+        "url": "https://gc.nh.gov/rsa/html/V/77-A/77-A-5.htm"
       },
       {
         "label": "New Hampshire General Court - RSA 77-A:5, XIII: research credit and dated amendments",
-        "publisher": "nh.gov",
+        "publisher": "gc.nh.gov",
         "url": "https://gc.nh.gov/rsa/html/V/77-A/77-A-5.htm"
       },
       {
         "label": "New Hampshire General Court - 2026 chapter 338, sections 1, 2 and 4: cap and allocation effective dates",
-        "publisher": "nh.gov",
+        "publisher": "gc.nh.gov",
         "url": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?id=1695&sy=2026&txtFormat=pdf&v=current"
       },
       {
         "label": "New Hampshire General Court - Business Enterprise Tax Rules, Rev 2406.05: application and tax-use order",
-        "publisher": "nh.gov",
+        "publisher": "gc.nh.gov",
         "url": "https://gc.nh.gov/rules/state_agencies/rev2400.html"
       },
       {
         "label": "New Hampshire General Court - RSA 77-E:3-b: unused business profits tax research credit",
-        "publisher": "nh.gov",
+        "publisher": "gc.nh.gov",
         "url": "https://gc.nh.gov/rsa/html/V/77-E/77-E-3-b.htm"
       },
       {
         "label": "New Hampshire Department of Revenue Administration - Research and Development Tax Credit Program and current DP-165 access",
-        "publisher": "nh.gov",
+        "publisher": "revenue.nh.gov",
         "url": "https://www.revenue.nh.gov/taxes-glance/tax-credit-programs/research-and-development-tax-credit-program"
       },
       {
         "label": "New Hampshire Department of Revenue Administration - Current Year Forms and Instructions",
-        "publisher": "nh.gov",
+        "publisher": "revenue.nh.gov",
         "url": "https://www.revenue.nh.gov/resource-center/current-year-forms-and-instructions"
       }
     ],
@@ -6033,9 +5703,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "New Jersey Division of Taxation - corporation business tax Credits",
+        "label": "NJ Division of Taxation - Corporation Business Tax Credits and Incentives",
         "publisher": "nj.gov",
-        "url": "https://www.nj.gov/treasury/taxation/cbt-creditlist.shtml"
+        "url": "https://www.nj.gov/treasury/taxation/cbt-creditlist.shtml#Effluent"
       }
     ],
     "difficulty_score": 2,
@@ -6083,9 +5753,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "New Jersey Division of Taxation - corporation business tax Credits",
+        "label": "NJ Division of Taxation - Corporation Business Tax Credits and Incentives",
         "publisher": "nj.gov",
-        "url": "https://www.nj.gov/treasury/taxation/cbt-creditlist.shtml"
+        "url": "https://www.nj.gov/treasury/taxation/cbt-creditlist.shtml#Manufacturing"
       }
     ],
     "difficulty_score": 2,
@@ -6134,9 +5804,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "New Jersey Division of Taxation - corporation business tax Credits",
+        "label": "NJ Division of Taxation - Corporation Business Tax Credits and Incentives",
         "publisher": "nj.gov",
-        "url": "https://www.nj.gov/treasury/taxation/cbt-creditlist.shtml"
+        "url": "https://www.nj.gov/treasury/taxation/cbt-creditlist.shtml#NewJobs"
       }
     ],
     "difficulty_score": 3,
@@ -6184,9 +5854,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "New Jersey Division of Taxation - corporation business tax Credits",
+        "label": "NJ Division of Taxation - Corporation Business Tax Credits and Incentives",
         "publisher": "nj.gov",
-        "url": "https://www.nj.gov/treasury/taxation/cbt-creditlist.shtml"
+        "url": "https://www.nj.gov/treasury/taxation/cbt-creditlist.shtml#Recycling"
       }
     ],
     "difficulty_score": 2,
@@ -6236,14 +5906,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "New Jersey Division of Taxation - corporation business tax Credits",
+        "label": "NJ Division of Taxation - Corporation Business Tax Credits and Incentives",
         "publisher": "nj.gov",
-        "url": "https://www.nj.gov/treasury/taxation/cbt-creditlist.shtml"
-      },
-      {
-        "label": "New Jersey Division of Taxation - corporation business tax Credits",
-        "publisher": "newmexico.gov",
-        "url": "https://www.tax.newmexico.gov/tax-professionals/tax-credits-overview-forms/"
+        "url": "https://www.nj.gov/treasury/taxation/cbt-creditlist.shtml#Research"
       }
     ],
     "difficulty_score": 2,
@@ -6291,9 +5956,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "New Mexico TRD - Business Tax Credits",
-        "publisher": "newmexico.gov",
-        "url": "https://www.tax.newmexico.gov/tax-professionals/tax-credits-overview-forms/"
+        "label": "FYI-106 — Claiming Business-Related Tax Credits for Individuals and Businesses",
+        "publisher": "realfile.tax.newmexico.gov",
+        "url": "https://realfile.tax.newmexico.gov/FYI-106.pdf"
       }
     ],
     "difficulty_score": 2,
@@ -6342,9 +6007,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "New Mexico TRD - Business Tax Credits",
-        "publisher": "newmexico.gov",
-        "url": "https://www.tax.newmexico.gov/tax-professionals/tax-credits-overview-forms/"
+        "label": "FYI-106 — Claiming Business-Related Tax Credits for Individuals and Businesses",
+        "publisher": "realfile.tax.newmexico.gov",
+        "url": "https://realfile.tax.newmexico.gov/FYI-106.pdf"
       }
     ],
     "difficulty_score": 3,
@@ -6395,14 +6060,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "New Mexico TRD - Business Tax Credits",
-        "publisher": "newmexico.gov",
-        "url": "https://www.tax.newmexico.gov/tax-professionals/tax-credits-overview-forms/"
-      },
-      {
-        "label": "New Mexico TRD - Business Tax Credits",
-        "publisher": "ny.gov",
-        "url": "https://www.tax.ny.gov/pit/credits/brownfield-redevelopment-credit.htm"
+        "label": "FYI-106 — Claiming Business-Related Tax Credits for Individuals and Businesses",
+        "publisher": "realfile.tax.newmexico.gov",
+        "url": "https://realfile.tax.newmexico.gov/FYI-106.pdf"
       }
     ],
     "difficulty_score": 3,
@@ -6452,7 +6112,7 @@
     "official_sources": [
       {
         "label": "New York Department of Taxation and Finance - Brownfield",
-        "publisher": "ny.gov",
+        "publisher": "tax.ny.gov",
         "url": "https://www.tax.ny.gov/pit/credits/brownfield-redevelopment-credit.htm"
       }
     ],
@@ -6504,9 +6164,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "New York Department of Taxation and Finance - Business Incentives",
-        "publisher": "ny.gov",
-        "url": "https://www.tax.ny.gov/pit/credits/brownfield-redevelopment-credit.htm"
+        "label": "Employment incentive credit (EIC)",
+        "publisher": "tax.ny.gov",
+        "url": "https://www.tax.ny.gov/pit/credits/employment_incentive_credit.htm"
       }
     ],
     "difficulty_score": 2,
@@ -6559,7 +6219,7 @@
     "official_sources": [
       {
         "label": "New York Department of Taxation and Finance - Excelsior Jobs Program",
-        "publisher": "ny.gov",
+        "publisher": "tax.ny.gov",
         "url": "https://www.tax.ny.gov/pit/credits/excelsior.htm"
       }
     ],
@@ -6610,9 +6270,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "New York Department of Taxation and Finance - Business Incentives",
-        "publisher": "ny.gov",
-        "url": "https://www.tax.ny.gov/pit/credits/excelsior.htm"
+        "label": "Investment tax credit (ITC)",
+        "publisher": "tax.ny.gov",
+        "url": "https://www.tax.ny.gov/pit/credits/investment_tax_credit.htm"
       }
     ],
     "difficulty_score": 2,
@@ -6663,23 +6323,18 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "New York Department of Taxation and Finance - Business Incentives",
-        "publisher": "ny.gov",
-        "url": "https://www.tax.ny.gov/bus/business-incentives.htm"
-      },
-      {
-        "label": "New York Department of Taxation and Finance - Brownfield",
-        "publisher": "ny.gov",
-        "url": "https://www.tax.ny.gov/pit/credits/brownfield-redevelopment-credit.htm"
+        "label": "Excelsior jobs program tax credit",
+        "publisher": "tax.ny.gov",
+        "url": "https://www.tax.ny.gov/pit/credits/excelsior.htm"
       },
       {
         "label": "New York Department of Taxation and Finance - Business Incentives",
-        "publisher": "ny.gov",
+        "publisher": "tax.ny.gov",
         "url": "https://www.tax.ny.gov/pit/credits/excelsior.htm"
       },
       {
         "label": "New York Department of Taxation and Finance - Excelsior Jobs Program",
-        "publisher": "ny.gov",
+        "publisher": "tax.ny.gov",
         "url": "https://www.tax.ny.gov/pit/credits/excelsior.htm"
       }
     ],
@@ -6781,14 +6436,14 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "North Carolina Department of Revenue - 2026 Economic Incentives",
+        "label": "2026 Economic Incentives Report | NCDOR",
         "publisher": "ncdor.gov",
         "url": "https://www.ncdor.gov/news/reports-and-statistics/economic-incentives-reports/2026-economic-incentives-report"
       },
       {
         "label": "North Carolina Department of Revenue - 2026 Economic Incentives",
-        "publisher": "nd.gov",
-        "url": "https://www.tax.nd.gov/apprentice-tax-credit"
+        "publisher": "ncdor.gov",
+        "url": "https://www.ncdor.gov/news/reports-and-statistics/economic-incentives-reports/2026-economic-incentives-report"
       }
     ],
     "difficulty_score": 3,
@@ -6838,7 +6493,7 @@
     "official_sources": [
       {
         "label": "North Dakota Office of State Tax Commissioner - Apprentice Tax Credit",
-        "publisher": "nd.gov",
+        "publisher": "tax.nd.gov",
         "url": "https://www.tax.nd.gov/apprentice-tax-credit"
       }
     ],
@@ -6888,9 +6543,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "North Dakota Office of State Tax Commissioner - Automation Tax Credit",
-        "publisher": "nd.gov",
-        "url": "https://www.tax.nd.gov/apprentice-tax-credit"
+        "label": "Automation Tax Credit | North Dakota Office of State Tax Commissioner",
+        "publisher": "tax.nd.gov",
+        "url": "https://www.tax.nd.gov/automation-tax-credit"
       }
     ],
     "difficulty_score": 3,
@@ -6940,7 +6595,7 @@
     "official_sources": [
       {
         "label": "North Dakota Tax Commissioner - Business Tax Credits",
-        "publisher": "nd.gov",
+        "publisher": "tax.nd.gov",
         "url": "https://www.tax.nd.gov/income-tax-incentives"
       }
     ],
@@ -6990,29 +6645,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "North Dakota Office of State Tax Commissioner - Research Expense",
-        "publisher": "nd.gov",
-        "url": "https://www.tax.nd.gov/income-tax-incentives"
-      },
-      {
-        "label": "North Dakota Office of State Tax Commissioner - Apprentice Tax Credit",
-        "publisher": "nd.gov",
+        "label": "Research Expense Credit | North Dakota Office of State Tax Commissioner",
+        "publisher": "tax.nd.gov",
         "url": "https://www.tax.nd.gov/research-expense-credit"
-      },
-      {
-        "label": "North Dakota Office of State Tax Commissioner - Automation Tax Credit",
-        "publisher": "nd.gov",
-        "url": "https://www.tax.nd.gov/apprentice-tax-credit"
-      },
-      {
-        "label": "North Dakota Tax Commissioner - Business Tax Credits",
-        "publisher": "nd.gov",
-        "url": "https://www.tax.nd.gov/automation-tax-credit"
-      },
-      {
-        "label": "North Dakota Office of State Tax Commissioner - Research Expense",
-        "publisher": "ohio.gov",
-        "url": "https://codes.ohio.gov/ohio-revised-code/section-122.17"
       }
     ],
     "difficulty_score": 2,
@@ -7061,7 +6696,7 @@
     "official_sources": [
       {
         "label": "Ohio Revised Code §122.17",
-        "publisher": "ohio.gov",
+        "publisher": "codes.ohio.gov",
         "url": "https://codes.ohio.gov/ohio-revised-code/section-122.17"
       }
     ],
@@ -7165,24 +6800,14 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Ohio Revised Code §122.17",
-        "publisher": "ohiohistory.org",
-        "url": "https://www.ohiohistory.org/preserving-ohio/historic-tax-incentive/ohio-historic-preservation-tax-credit/"
-      },
-      {
-        "label": "Ohio Department of Development - Historic Preservation Tax Credit",
-        "publisher": "ohio.gov",
-        "url": "https://codes.ohio.gov/ohio-revised-code/section-122.17"
-      },
-      {
-        "label": "Ohio Revised Code - Research and Development Investment Credit",
-        "publisher": "ohio.gov",
+        "label": "Section 5751.51 - Ohio Revised Code | Ohio Laws",
+        "publisher": "codes.ohio.gov",
         "url": "https://codes.ohio.gov/ohio-revised-code/section-5751.51"
       },
       {
         "label": "Ohio Revised Code - Research and Development Investment Credit",
-        "publisher": "okcommerce.gov",
-        "url": "https://www.okcommerce.gov/doing-business/business-relocation-expansion/incentives/"
+        "publisher": "codes.ohio.gov",
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-5751.51"
       }
     ],
     "difficulty_score": 1,
@@ -7233,9 +6858,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Oklahoma Department of Commerce - Incentives",
+        "label": "Investment/New Jobs Tax Credit Package - Oklahoma Department of Commerce",
         "publisher": "okcommerce.gov",
-        "url": "https://www.okcommerce.gov/doing-business/business-relocation-expansion/incentives/"
+        "url": "https://www.okcommerce.gov/doing-business/business-relocation-expansion/incentives/investment-new-jobs-tax-credit-package/"
       }
     ],
     "difficulty_score": 2,
@@ -7336,14 +6961,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Oklahoma Department of Commerce - Incentives",
+        "label": "SIDE Act - Oklahoma Department of Commerce",
         "publisher": "okcommerce.gov",
-        "url": "https://www.okcommerce.gov/doing-business/business-relocation-expansion/incentives/"
-      },
-      {
-        "label": "Oklahoma Department of Commerce - Incentives",
-        "publisher": "oregon.gov",
-        "url": "https://www.oregon.gov/biz/programs/QJCTC/Pages/default.aspx"
+        "url": "https://www.okcommerce.gov/doing-business/business-relocation-expansion/incentives/side-act/"
       }
     ],
     "difficulty_score": 3,
@@ -7392,14 +7012,14 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Business Oregon - Qualified Jobs Creation Tax Credit",
+        "label": "Business Oregon : Qualified Jobs Creation Tax Credit (QJCTC) : Qualified Jobs Creation Tax Credit : State of Oregon",
         "publisher": "oregon.gov",
         "url": "https://www.oregon.gov/biz/programs/QJCTC/Pages/default.aspx"
       },
       {
         "label": "Business Oregon - Qualified Jobs Creation Tax Credit",
-        "publisher": "pa.gov",
-        "url": "https://dced.pa.gov/program/"
+        "publisher": "oregon.gov",
+        "url": "https://www.oregon.gov/biz/programs/QJCTC/Pages/default.aspx"
       }
     ],
     "difficulty_score": 2,
@@ -7450,9 +7070,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Pennsylvania Department of Community and Economic Development -",
-        "publisher": "pa.gov",
-        "url": "https://dced.pa.gov/program/"
+        "label": "Historic Preservation Tax Credit (HTPC) - PA Dept. of Community & Economic Development",
+        "publisher": "dced.pa.gov",
+        "url": "https://dced.pa.gov/programs/historic-preservation-tax-credit-hptc/"
       }
     ],
     "difficulty_score": 3,
@@ -7505,7 +7125,7 @@
     "official_sources": [
       {
         "label": "Pennsylvania Department of Community and Economic Development -",
-        "publisher": "pa.gov",
+        "publisher": "dced.pa.gov",
         "url": "https://dced.pa.gov/programs/manufacturing-tax-credit-mtc-program/"
       }
     ],
@@ -7556,9 +7176,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Pennsylvania Department of Community and Economic Development -",
-        "publisher": "pa.gov",
-        "url": "https://dced.pa.gov/program/"
+        "label": "Research and Development (R&D) Tax Credit Assignment Program - PA Department of Community & Economic Development",
+        "publisher": "dced.pa.gov",
+        "url": "https://dced.pa.gov/programs/research-development-tax-credit/"
       }
     ],
     "difficulty_score": 3,
@@ -7606,24 +7226,14 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Pennsylvania Department of Community and Economic Development -",
-        "publisher": "pa.gov",
-        "url": "https://dced.pa.gov/program/"
-      },
-      {
-        "label": "Pennsylvania Department of Community and Economic Development -",
-        "publisher": "pa.gov",
+        "label": "Rural Jobs and Investment Tax Credit Program (RJTC) - PA Department of Community & Economic Development",
+        "publisher": "dced.pa.gov",
         "url": "https://dced.pa.gov/programs/rural-jobs-and-investment-tax-credit-program-rjtc/"
       },
       {
         "label": "Pennsylvania Department of Community and Economic Development -",
-        "publisher": "pa.gov",
-        "url": "https://dced.pa.gov/programs/manufacturing-tax-credit-mtc-program/"
-      },
-      {
-        "label": "Pennsylvania Department of Community and Economic Development -",
-        "publisher": "commerceri.com",
-        "url": "https://commerceri.com/financing/tax-credits/"
+        "publisher": "dced.pa.gov",
+        "url": "https://dced.pa.gov/programs/rural-jobs-and-investment-tax-credit-program-rjtc/"
       }
     ],
     "difficulty_score": 3,
@@ -7673,9 +7283,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Rhode Island Commerce - Incentives",
+        "label": "Qualified Jobs Incentive Tax Credit | Rhode Island Commerce",
         "publisher": "commerceri.com",
-        "url": "https://commerceri.com/financing/tax-credits/"
+        "url": "https://commerceri.com/financing/tax-credits/qualified-jobs-incentive-tax-credit/"
       }
     ],
     "difficulty_score": 3,
@@ -7723,14 +7333,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Rhode Island Commerce - Incentives",
+        "label": "Rebuild Rhode Island Tax Credit | Rhode Island Commerce",
         "publisher": "commerceri.com",
-        "url": "https://commerceri.com/financing/tax-credits/"
-      },
-      {
-        "label": "Rhode Island Commerce - Incentives",
-        "publisher": "commerceri.com",
-        "url": "https://commerceri.com/financing/tax-credits/"
+        "url": "https://commerceri.com/financing/tax-credits/rebuild-rhode-island-tax-credit/"
       }
     ],
     "difficulty_score": 3,
@@ -7780,9 +7385,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "South Carolina Department of Revenue - Tax Credits & Forms",
-        "publisher": "sc.gov",
-        "url": "https://dor.sc.gov/tax-credits/tax-credits-forms"
+        "label": "Tax Credits & Forms | SCDOR",
+        "publisher": "dor.sc.gov",
+        "url": "https://dor.sc.gov/tax-credits/tax-credits-forms#heading-11411"
       }
     ],
     "difficulty_score": 3,
@@ -7834,9 +7439,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "South Carolina Department of Revenue - Tax Credits & Forms",
-        "publisher": "sc.gov",
-        "url": "https://dor.sc.gov/tax-credits/tax-credits-forms"
+        "label": "Tax Credits & Forms | SCDOR",
+        "publisher": "dor.sc.gov",
+        "url": "https://dor.sc.gov/tax-credits/tax-credits-forms#heading-11211"
       }
     ],
     "difficulty_score": 1,
@@ -7887,9 +7492,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "South Carolina Department of Revenue - Tax Credits & Forms",
-        "publisher": "sc.gov",
-        "url": "https://dor.sc.gov/tax-credits/tax-credits-forms"
+        "label": "Tax Credits & Forms | SCDOR",
+        "publisher": "dor.sc.gov",
+        "url": "https://dor.sc.gov/tax-credits/tax-credits-forms#heading-11206"
       }
     ],
     "difficulty_score": 2,
@@ -7937,9 +7542,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "South Carolina Department of Revenue - Tax Credits & Forms",
-        "publisher": "sc.gov",
-        "url": "https://dor.sc.gov/tax-credits/tax-credits-forms"
+        "label": "Tax Credits & Forms | SCDOR",
+        "publisher": "dor.sc.gov",
+        "url": "https://dor.sc.gov/tax-credits/tax-credits-forms#heading-11176"
       }
     ],
     "difficulty_score": 2,
@@ -7989,9 +7594,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "South Carolina Department of Revenue - Tax Credits & Forms",
-        "publisher": "sc.gov",
-        "url": "https://dor.sc.gov/tax-credits/tax-credits-forms"
+        "label": "Tax Credits & Forms | SCDOR",
+        "publisher": "dor.sc.gov",
+        "url": "https://dor.sc.gov/tax-credits/tax-credits-forms#heading-11231"
       }
     ],
     "difficulty_score": 3,
@@ -8040,9 +7645,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "South Carolina Department of Revenue - Tax Credits & Forms",
-        "publisher": "sc.gov",
-        "url": "https://dor.sc.gov/tax-credits/tax-credits-forms"
+        "label": "Tax Credits & Forms | SCDOR",
+        "publisher": "dor.sc.gov",
+        "url": "https://dor.sc.gov/tax-credits/tax-credits-forms#heading-11236"
       }
     ],
     "difficulty_score": 1,
@@ -8090,9 +7695,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "South Carolina Department of Revenue - Tax Credits & Forms",
-        "publisher": "sc.gov",
-        "url": "https://dor.sc.gov/tax-credits/tax-credits-forms"
+        "label": "Tax Credits & Forms | SCDOR",
+        "publisher": "dor.sc.gov",
+        "url": "https://dor.sc.gov/tax-credits/tax-credits-forms#heading-11181"
       }
     ],
     "difficulty_score": 2,
@@ -8143,14 +7748,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "South Carolina Department of Revenue - Tax Credits & Forms",
-        "publisher": "sc.gov",
-        "url": "https://dor.sc.gov/tax-credits/tax-credits-forms"
-      },
-      {
-        "label": "South Carolina Department of Revenue - Tax Credits & Forms",
-        "publisher": "sc.gov",
-        "url": "https://dor.sc.gov/tax-credits/tax-credits-forms"
+        "label": "Tax Credits & Forms | SCDOR",
+        "publisher": "dor.sc.gov",
+        "url": "https://dor.sc.gov/tax-credits/tax-credits-forms#heading-11351"
       }
     ],
     "difficulty_score": 2,
@@ -8201,9 +7801,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Tennessee ECD - Incentives & Grants",
-        "publisher": "tnecd.com",
-        "url": "https://tnecd.com/why-tennessee/incentives-grants/"
+        "label": "Job Tax Credit",
+        "publisher": "tn.gov",
+        "url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax/exemptions/job-tax-credit.html.html"
       }
     ],
     "difficulty_score": 2,
@@ -8254,9 +7854,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Tennessee ECD - Incentives & Grants",
-        "publisher": "tnecd.com",
-        "url": "https://tnecd.com/why-tennessee/incentives-grants/"
+        "label": "OpenECD - Tax Incentives",
+        "publisher": "tn.gov",
+        "url": "https://www.tn.gov/ecd/resources/openecd/openecd-tax-incentives.html"
       }
     ],
     "difficulty_score": 1,
@@ -8306,14 +7906,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Tennessee ECD - Incentives & Grants",
-        "publisher": "tnecd.com",
-        "url": "https://tnecd.com/why-tennessee/incentives-grants/"
-      },
-      {
-        "label": "Tennessee ECD - Incentives & Grants",
-        "publisher": "texas.gov",
-        "url": "https://thc.texas.gov/preserve/grants-tax-credits-and-funding/historic-preservation-tax-credits"
+        "label": "Job Tax Credit",
+        "publisher": "tn.gov",
+        "url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax/exemptions/job-tax-credit.html.html"
       }
     ],
     "difficulty_score": 2,
@@ -8363,7 +7958,7 @@
     "official_sources": [
       {
         "label": "Texas Historical Commission - Historic Preservation Tax Credit",
-        "publisher": "texas.gov",
+        "publisher": "thc.texas.gov",
         "url": "https://thc.texas.gov/preserve/grants-tax-credits-and-funding/historic-preservation-tax-credits"
       }
     ],
@@ -8417,19 +8012,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Texas Comptroller - 2026 Franchise Tax Instructions, Subchapter T",
-        "publisher": "texas.gov",
-        "url": "https://thc.texas.gov/preserve/grants-tax-credits-and-funding/historic-preservation-tax-credits"
-      },
-      {
-        "label": "Texas Historical Commission - Historic Preservation Tax Credit",
-        "publisher": "texas.gov",
+        "label": "2026 Texas Franchise Tax Report Information and Instructions",
+        "publisher": "comptroller.texas.gov",
         "url": "https://comptroller.texas.gov/forms/05-915.pdf"
-      },
-      {
-        "label": "Texas Comptroller - 2026 Franchise Tax Instructions, Subchapter T",
-        "publisher": "utah.gov",
-        "url": "https://business.utah.gov/recruitment/companies/"
       }
     ],
     "difficulty_score": 2,
@@ -8477,9 +8062,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Utah GOEO - Incented Companies",
-        "publisher": "utah.gov",
-        "url": "https://business.utah.gov/recruitment/companies/"
+        "label": "Business Recruitment & Expansion - Governor's Office of Economic Development",
+        "publisher": "business.utah.gov",
+        "url": "https://business.utah.gov/recruitment/"
       }
     ],
     "difficulty_score": 3,
@@ -8531,9 +8116,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Utah State Tax Commission - Recycling Credit Form TC-40R (use",
-        "publisher": "utah.gov",
-        "url": "https://business.utah.gov/recruitment/companies/"
+        "label": "TC-40R Recycling Market Development Zones Tax Credit",
+        "publisher": "files.tax.utah.gov",
+        "url": "https://files.tax.utah.gov/tax/forms/current/tc-40r.pdf"
       }
     ],
     "difficulty_score": 2,
@@ -8582,24 +8167,14 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Utah Code §59-10-1012",
-        "publisher": "utah.gov",
+        "label": "Utah Code Section 59-10-1012",
+        "publisher": "le.utah.gov",
         "url": "https://le.utah.gov/xcode/Title59/Chapter10/59-10-S1012.html"
       },
       {
-        "label": "Utah GOEO - Incented Companies",
-        "publisher": "utah.gov",
-        "url": "https://business.utah.gov/recruitment/companies/"
-      },
-      {
-        "label": "Utah State Tax Commission - Recycling Credit Form TC-40R (use",
-        "publisher": "utah.gov",
-        "url": "https://files.tax.utah.gov/forms/current/tc-40r.pdf"
-      },
-      {
         "label": "Utah Code §59-10-1012",
-        "publisher": "vermont.gov",
-        "url": "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT164/ACT164%20As%20Enacted.pdf"
+        "publisher": "le.utah.gov",
+        "url": "https://le.utah.gov/xcode/Title59/Chapter10/59-10-S1012.html"
       }
     ],
     "difficulty_score": 2,
@@ -8648,14 +8223,14 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Vermont General Assembly - Act 164 of 2026, Sections 58 and 64(7)",
-        "publisher": "vermont.gov",
+        "label": "Vermont No. 164 — An act relating to miscellaneous administrative and policy changes to the tax laws",
+        "publisher": "legislature.vermont.gov",
         "url": "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT164/ACT164%20As%20Enacted.pdf"
       },
       {
         "label": "Vermont General Assembly - Act 164 of 2026, Sections 58 and 64(7)",
-        "publisher": "virginia.gov",
-        "url": "https://www.tax.virginia.gov/tax-credits"
+        "publisher": "legislature.vermont.gov",
+        "url": "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT164/ACT164%20As%20Enacted.pdf"
       }
     ],
     "difficulty_score": 1,
@@ -8703,9 +8278,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Virginia Tax - Tax Credits",
-        "publisher": "virginia.gov",
-        "url": "https://www.tax.virginia.gov/tax-credits"
+        "label": "Environmental Credits | Virginia Tax",
+        "publisher": "tax.virginia.gov",
+        "url": "https://www.tax.virginia.gov/environmental-credits#recyclable-materials-processing-equipment-credit"
       }
     ],
     "difficulty_score": 3,
@@ -8753,19 +8328,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Virginia Tax - Business Development Credits",
-        "publisher": "virginia.gov",
-        "url": "https://www.tax.virginia.gov/tax-credits"
-      },
-      {
-        "label": "Virginia Tax - Tax Credits",
-        "publisher": "virginia.gov",
-        "url": "https://www.tax.virginia.gov/business-development-credits"
-      },
-      {
-        "label": "Virginia Tax - Business Development Credits",
-        "publisher": "wa.gov",
-        "url": "https://www.commerce.wa.gov/cbps/cbps-grants-incentives/tier-1-incentives-program/"
+        "label": "Business Development Credits | Virginia Tax",
+        "publisher": "tax.virginia.gov",
+        "url": "https://www.tax.virginia.gov/business-development-credits#worker-training-credit"
       }
     ],
     "difficulty_score": 2,
@@ -8814,9 +8379,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Washington Department of Revenue - Tax Incentive Credits",
-        "publisher": "wa.gov",
-        "url": "https://www.commerce.wa.gov/cbps/cbps-grants-incentives/tier-1-incentives-program/"
+        "label": "Credits | Washington Department of Revenue",
+        "publisher": "dor.wa.gov",
+        "url": "https://dor.wa.gov/taxes-rates/tax-incentives/credits#NewEmployees"
       }
     ],
     "difficulty_score": 2,
@@ -8868,14 +8433,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Washington Department of Revenue - Tax Incentive Credits",
-        "publisher": "wa.gov",
-        "url": "https://dor.wa.gov/taxes-rates/tax-incentives/credits"
-      },
-      {
-        "label": "Washington Department of Revenue - Tax Incentive Credits",
-        "publisher": "wv.gov",
-        "url": "https://tax.wv.gov/Documents/TSD/tsd110.pdf"
+        "label": "Credits | Washington Department of Revenue",
+        "publisher": "dor.wa.gov",
+        "url": "https://dor.wa.gov/taxes-rates/tax-incentives/credits#Customized"
       }
     ],
     "difficulty_score": 2,
@@ -8926,7 +8486,7 @@
     "official_sources": [
       {
         "label": "West Virginia Tax Division - Business Tax Credits",
-        "publisher": "wv.gov",
+        "publisher": "tax.wv.gov",
         "url": "https://tax.wv.gov/Documents/TSD/tsd110.pdf"
       }
     ],
@@ -8980,7 +8540,7 @@
     "official_sources": [
       {
         "label": "West Virginia Tax Division - Business Tax Credits",
-        "publisher": "wv.gov",
+        "publisher": "tax.wv.gov",
         "url": "https://tax.wv.gov/Documents/TSD/tsd110.pdf"
       }
     ],
@@ -9029,14 +8589,14 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "West Virginia Tax Division - Business Tax Credits",
-        "publisher": "wv.gov",
+        "label": "TSD 110 — West Virginia Tax Credits",
+        "publisher": "tax.wv.gov",
         "url": "https://tax.wv.gov/Documents/TSD/tsd110.pdf"
       },
       {
         "label": "West Virginia Tax Division - Business Tax Credits",
-        "publisher": "wedc.org",
-        "url": "https://wedc.org/programs/business-development-tax-credits/"
+        "publisher": "tax.wv.gov",
+        "url": "https://tax.wv.gov/Documents/TSD/tsd110.pdf"
       }
     ],
     "difficulty_score": 2,
@@ -9141,9 +8701,9 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Wisconsin Economic Development Corporation - Enterprise Zone Tax",
+        "label": "Enterprise Zone Tax Credit Program | WEDC",
         "publisher": "wedc.org",
-        "url": "https://wedc.org/programs/business-development-tax-credits/"
+        "url": "https://wedc.org/programs/enterprise-zone-tax-credit/"
       }
     ],
     "difficulty_score": 3,
@@ -9196,7 +8756,7 @@
     "official_sources": [
       {
         "label": "Wisconsin Department of Revenue - Manufacturing and Agriculture",
-        "publisher": "wi.gov",
+        "publisher": "revenue.wi.gov",
         "url": "https://www.revenue.wi.gov/Pages/FAQS/ise-MandA-CreditComp.aspx"
       }
     ],
@@ -9246,29 +8806,14 @@
     "additional_detail": "",
     "official_sources": [
       {
-        "label": "Wisconsin Department of Revenue - Research Credits",
-        "publisher": "wi.gov",
+        "label": "DOR\r\n            \r\n            \r\n            Wisconsin Research Credits",
+        "publisher": "revenue.wi.gov",
         "url": "https://www.revenue.wi.gov/Pages/Businesses/incentives-research.aspx"
       },
       {
-        "label": "Wisconsin Economic Development Corporation - Business Development",
-        "publisher": "wedc.org",
-        "url": "https://wedc.org/programs/business-development-tax-credits/"
-      },
-      {
-        "label": "Wisconsin Economic Development Corporation - Enterprise Zone Tax",
-        "publisher": "wedc.org",
-        "url": "https://wedc.org/programs/enterprise-zone-tax-credit/"
-      },
-      {
-        "label": "Wisconsin Department of Revenue - Manufacturing and Agriculture",
-        "publisher": "wi.gov",
-        "url": "https://www.revenue.wi.gov/Pages/FAQS/ise-MandA-CreditComp.aspx"
-      },
-      {
         "label": "Wisconsin Department of Revenue - Research Credits",
-        "publisher": "wi.gov",
-        "url": "https://www.revenue.wi.gov/Pages/FAQS/ise-MandA-CreditComp.aspx"
+        "publisher": "revenue.wi.gov",
+        "url": "https://www.revenue.wi.gov/Pages/Businesses/incentives-research.aspx"
       }
     ],
     "difficulty_score": 2,

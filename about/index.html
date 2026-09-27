@@ -19,7 +19,7 @@
 <meta name="twitter:title" content="How to Use | National Forest Products Tax Credit Sourcebook">
 <meta name="twitter:description" content="How to use the forest-products tax credit sourcebook and understand its screening limits.">
 <meta name="twitter:image" content="https://tax.lumbermen.org/assets/social/nfptc-2026-og.jpg">
-<link rel="stylesheet" href="/assets/css/styles.css?v=20260927d">
+<link rel="stylesheet" href="/assets/css/styles.css?v=20260927e">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"National Forest Products Tax Credit Sourcebook","url":"https://tax.lumbermen.org","potentialAction":{"@type":"SearchAction","target":"https://tax.lumbermen.org/search/?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
 <meta name="theme-color" content="#1f4d38">
 <link rel="icon" href="/assets/icons/favicon.svg" type="image/svg+xml">
@@ -102,26 +102,22 @@
     <a href="https://drive.google.com/file/d/1uvsSiIreZqcPHlvo2IUM_z4EEoFDDmw6/view?usp=sharing" target="_blank" rel="noopener">Download PDF</a>
   </div>
 </footer>
-<dialog id="feedbackDialog" class="feedback-dialog">
-  <form method="dialog" class="feedback-form">
-    <button type="button" class="dialog-close" data-close-feedback aria-label="Close">x</button>
-    <h2>Report a correction</h2>
-    <p id="feedbackContext">Tell us what needs attention.</p>
-    <label for="feedbackMessage">Message</label>
-    <textarea id="feedbackMessage" rows="5" required></textarea>
-    <p class="form-status" data-feedback-status role="status"></p>
-    <div class="dialog-actions">
-      <button type="button" class="button secondary" data-close-feedback>Cancel</button>
-      <button type="button" class="button" data-send-feedback>Send email</button>
-    </div>
+<dialog id="feedbackDialog" aria-labelledby="feedbackTitle">
+  <form method="dialog" class="feedback-form" novalidate>
+    <button class="dialog-close" value="cancel" aria-label="Close">×</button>
+    <h2 id="feedbackTitle">Suggest a correction</h2>
+    <p>Submissions are prepared with page context so they can become maintenance items for a future edition.</p>
+    <label>Type <select id="feedbackType"><option>Correction</option><option>Broken link</option><option>Missing program</option><option>Question</option><option>Other</option></select></label>
+    <label>Message <textarea id="feedbackMessage" required></textarea></label>
+    <p class="form-error" id="feedbackError" role="alert" hidden></p>
+    <label>Name <input id="feedbackName" autocomplete="name"></label>
+    <label>Email <input id="feedbackEmail" type="email" autocomplete="email"></label>
+    <p class="form-note">This button opens your email client with the page context filled in.</p>
+    <button type="button" id="feedbackEmailButton">Prepare correction email</button>
+    <p class="form-note" id="feedbackStatus" role="status" hidden></p>
   </form>
 </dialog>
-<div class="compare-tray" data-compare-tray hidden>
-  <div><strong data-compare-count>0 selected</strong><span>Compare up to 3 programs.</span></div>
-  <div data-compare-items></div>
-  <a class="button small" data-compare-link href="/compare/">Compare</a>
-  <button class="button small secondary" type="button" data-compare-clear>Clear</button>
-</div>
-<script src="/assets/js/site.js?v=20260927a" defer></script>
+<div class="compare-tray" data-compare-tray hidden></div>
+<script src="/assets/js/site.js?v=20260927b" defer></script>
 </body>
 </html>
