@@ -1,6 +1,6 @@
 const DATA_URL = "/assets/data/programs.min.json";
 const CONTACT_EMAIL = "steve@northeastforests.com";
-const PDF_URL = "https://drive.google.com/file/d/1uvsSiIreZqcPHlvo2IUM_z4EEoFDDmw6/view?usp=sharing";
+const PDF_URL = "/assets/pdf/NFPTC-2026.pdf";
 let programsPromise;
 
 const synonyms = new Map([
@@ -123,20 +123,27 @@ function optionList(values, name, selectedVals, counts, labels = {}) {
 }
 
 function highlight(s, terms) {
-  let out = escapeHtml(truncate(s, 210));
-  for (const t of terms.filter((x) => x.length >= 3).slice(0, 5)) {
-    out = out.replace(new RegExp(`(${t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})`, "ig"), "<mark>$1</mark>");
+  const text = truncate(s, 210);
+  const words = terms.filter((x) => x.length >= 3).slice(0, 5).map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  if (!words.length) return escapeHtml(text);
+  const re = new RegExp(`(${words.join("|")})`, "ig");
+  let out = "", last = 0, match;
+  while ((match = re.exec(text))) {
+    out += escapeHtml(text.slice(last, match.index));
+    out += `<mark>${escapeHtml(match[0])}</mark>`;
+    last = match.index + match[0].length;
   }
-  return out;
+  return out + escapeHtml(text.slice(last));
 }
 
 function card(p, terms = []) {
   const refund = { yes: "Refundable", no: "Not refundable", conditional: "Conditional", "not established": "Not established" }[p.refundable_status] || "Not established";
+  const headline = p.headline ? `<p class="formula">${highlight(p.headline, terms)}</p>` : "";
   return `<article class="program-card" data-program-id="${escapeHtml(p.id)}">
     <a class="card-link" href="${escapeHtml(p.url)}">
       <span class="card-top"><span class="jurisdiction-pill">${escapeHtml(p.state_code || "FED")}</span><span class="program-id">${escapeHtml(p.id)}</span></span>
       <h3>${highlight(p.title, terms)}</h3>
-      <p class="formula">${highlight(p.headline || p.credit_amount_calculation, terms)}</p>
+      ${headline}
       <p>${highlight(p.summary || p.timing_first_action, terms)}</p>
     </a>
     <div class="badges"><span>Fit ${p.forest_products_fit_score || "?"}/3</span><span>Difficulty ${p.difficulty_score || "?"}/3</span><span>${escapeHtml(refund)}</span></div>
@@ -177,6 +184,11 @@ function getCompareIds() {
 async function renderCompareTray() {
   const tray = document.querySelector("[data-compare-tray]");
   if (!tray) return;
+  if (document.querySelector("[data-compare-page]")) {
+    tray.hidden = true;
+    tray.innerHTML = "";
+    return;
+  }
   const ids = getCompareIds();
   if (!ids.length) {
     tray.hidden = true;
@@ -184,7 +196,8 @@ async function renderCompareTray() {
     return;
   }
   tray.hidden = false;
-  tray.innerHTML = `<strong>${ids.length} of 3 selected</strong><span>${ids.map(escapeHtml).join(", ")}</span><a class="button primary" href="/compare/?ids=${encodeURIComponent(ids.join(","))}">Compare now</a><button type="button" data-clear-compare>Clear</button>`;
+  const full = ids.length >= 3 ? "<span>Tray full: remove one to add another.</span>" : "";
+  tray.innerHTML = `<strong>${ids.length} of 3 selected</strong><span>${ids.map(escapeHtml).join(", ")}</span>${full}<a class="button primary" href="/compare/?ids=${ids.map(encodeURIComponent).join(",")}">Compare now</a><button type="button" data-clear-compare>Clear</button>`;
   tray.querySelector("[data-clear-compare]").onclick = () => setCompareIds([]);
 }
 
@@ -195,6 +208,7 @@ function updateCompareButtons(root = document) {
     b.textContent = on ? "Added ✓" : "Compare";
     b.classList.toggle("is-added", on);
     b.disabled = !on && ids.length >= 3;
+    b.title = b.disabled ? "Compare tray full: remove one to add another." : "";
     b.onclick = () => {
       let next = getCompareIds();
       if (next.includes(b.dataset.compareId)) next = next.filter((id) => id !== b.dataset.compareId);
@@ -252,32 +266,54 @@ async function initSearch(app) {
     return [...app.querySelectorAll(`input[name="${name}"]:checked`)].map((i) => i.value);
   }
 
-  function renderFilters(seedRows) {
+  const categoryLabels = { state: "Jurisdiction", activity: "Activity", business: "Business relevance", timing: "Timing", refundable: "Refundability", difficulty: "Difficulty", fit: "Fit" };
+
+  function getSelections() {
+    return {
+      state: getChecked("state"),
+      activity: getChecked("activity"),
+      business: getChecked("business"),
+      timing: getChecked("timing"),
+      refundable: getChecked("refundable"),
+      difficulty: getChecked("difficulty"),
+      fit: getChecked("fit"),
+    };
+  }
+
+  function matchesFilters(p, terms, selections, includeFederal, exclude = "") {
+    if (terms.length && score(p, terms) <= 0) return false;
+    if (exclude !== "state" && selections.state.length && !(selections.state.includes(p.jurisdiction) || (includeFederal && p.jurisdiction_type === "Federal"))) return false;
+    if (exclude !== "activity" && selections.activity.length && !selections.activity.some((x) => (p.activity_tags || []).includes(x))) return false;
+    if (exclude !== "business" && selections.business.length && !selections.business.some((x) => (p.business_relevance || []).includes(x))) return false;
+    if (exclude !== "timing" && selections.timing.length && !selections.timing.some((x) => (p.timing_tags || []).includes(x))) return false;
+    if (exclude !== "refundable" && selections.refundable.length && !selections.refundable.includes(p.refundable_status)) return false;
+    if (exclude !== "difficulty" && selections.difficulty.length && !selections.difficulty.includes(String(p.difficulty_score))) return false;
+    if (exclude !== "fit" && selections.fit.length && !selections.fit.includes(String(p.forest_products_fit_score))) return false;
+    return true;
+  }
+
+  function renderFilters(terms = [], selections = {}, includeFederal = true) {
     for (const [name, values] of Object.entries(opts)) {
-      const selectedVals = selected(name);
+      const selectedVals = selections[name] || selected(name);
+      const seedRows = programs.filter((p) => matchesFilters(p, terms, selections, includeFederal, name));
       const counts = countsFor(seedRows, values, (p) => name === "state" ? p.jurisdiction : name === "activity" ? p.activity_tags : name === "business" ? p.business_relevance : name === "timing" ? p.timing_tags : name === "refundable" ? p.refundable_status : name === "difficulty" ? String(p.difficulty_score) : String(p.forest_products_fit_score));
       app.querySelector(`[data-filter="${name}"]`).innerHTML = optionList(values, name, selectedVals, counts, labels[name] || {});
     }
   }
 
-  renderFilters(programs);
+  renderFilters([], Object.fromEntries(Object.keys(opts).map((name) => [name, selected(name)])), sp.get("federal") !== "0");
   app.querySelector("#includeFederal").checked = sp.get("federal") !== "0";
   app.querySelector("#sort").value = sp.get("sort") || (q.value ? "relevance" : "fit");
 
   function run(resetVisible = true) {
     if (resetVisible) visible = 24;
     const terms = expandQuery(q.value);
-    const state = getChecked("state"), activity = getChecked("activity"), business = getChecked("business"), timing = getChecked("timing"), refundable = getChecked("refundable"), difficulty = getChecked("difficulty"), fit = getChecked("fit"), includeFederal = app.querySelector("#includeFederal").checked;
+    const selections = getSelections();
+    const { state, activity, business, timing, refundable, difficulty, fit } = selections;
+    const includeFederal = app.querySelector("#includeFederal").checked;
+    renderFilters(terms, selections, includeFederal);
     let rows = programs.map((p) => [p, score(p, terms)]).filter(([p, s]) => {
-      if (terms.length && s <= 0) return false;
-      if (state.length && !(state.includes(p.jurisdiction) || (includeFederal && p.jurisdiction_type === "Federal"))) return false;
-      if (activity.length && !activity.some((x) => (p.activity_tags || []).includes(x))) return false;
-      if (business.length && !business.some((x) => (p.business_relevance || []).includes(x))) return false;
-      if (timing.length && !timing.some((x) => (p.timing_tags || []).includes(x))) return false;
-      if (refundable.length && !refundable.includes(p.refundable_status)) return false;
-      if (difficulty.length && !difficulty.includes(String(p.difficulty_score))) return false;
-      if (fit.length && !fit.includes(String(p.forest_products_fit_score))) return false;
-      return true;
+      return matchesFilters(p, terms, selections, includeFederal) && (!terms.length || s > 0);
     });
     const sort = app.querySelector("#sort").value;
     rows.sort((a, b) => sort === "difficulty" ? (a[0].difficulty_score || 9) - (b[0].difficulty_score || 9) || a[0].title.localeCompare(b[0].title) : sort === "state" ? a[0].jurisdiction.localeCompare(b[0].jurisdiction) || a[0].title.localeCompare(b[0].title) : sort === "name" ? a[0].title.localeCompare(b[0].title) : sort === "fit" ? (b[0].forest_products_fit_score || 0) - (a[0].forest_products_fit_score || 0) || a[0].title.localeCompare(b[0].title) : b[1] - a[1] || a[0].title.localeCompare(b[0].title));
@@ -300,7 +336,10 @@ async function initSearch(app) {
     const chips = [];
     if (state.q) chips.push(`<button type="button" data-search-chip aria-label="Remove search term">Search: ${escapeHtml(state.q)} ×</button>`);
     for (const [k, v] of Object.entries(state)) {
-      if (Array.isArray(v)) for (const item of v) chips.push(`<button type="button" data-chip="${k}" data-value="${escapeHtml(item)}" aria-label="Remove filter ${k}: ${escapeHtml(item)}">${escapeHtml(k)}: ${escapeHtml(item)} ×</button>`);
+      if (Array.isArray(v)) for (const item of v) {
+        const label = labels[k]?.[item] || item;
+        chips.push(`<button type="button" data-chip="${k}" data-value="${escapeHtml(item)}" aria-label="Remove filter ${categoryLabels[k] || k}: ${escapeHtml(label)}">${escapeHtml(categoryLabels[k] || k)}: ${escapeHtml(label)} ×</button>`);
+      }
     }
     if (chips.length) chips.push('<button type="button" data-clear-all-chip>Clear all</button>');
     box.innerHTML = chips.join("");
@@ -337,8 +376,11 @@ async function initSearch(app) {
     run();
   }
 
-  app.addEventListener("input", debounce(() => run()));
-  app.addEventListener("change", () => run());
+  q.addEventListener("input", debounce(() => run()));
+  app.querySelector("[data-filter-search='state']")?.addEventListener("input", debounce(() => run(false)));
+  app.addEventListener("change", (e) => {
+    if (e.target.matches("input[type='checkbox'], select")) run();
+  });
   app.querySelector("[data-clear-search]").onclick = () => { q.value = ""; run(); };
   app.querySelector("[data-clear-all]").onclick = clearAll;
   app.querySelector("[data-show-more]").onclick = () => { visible += 24; run(false); };
