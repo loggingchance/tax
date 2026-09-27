@@ -12,7 +12,7 @@ This site is fully static. From the repository root, serve the folder with any s
 python -m http.server 8080
 ```
 
-Then open `http://localhost:8080`.
+Then open the root URL, for example `http://localhost:8080/`. The production custom domain also serves from the root, not `/tax/`.
 
 ## Content organization
 
@@ -20,7 +20,7 @@ Then open `http://localhost:8080`.
 - `content/pages.json` contains extracted page text from the full sourcebook.
 - `content/publication-sections.json` contains long-form publication sections.
 - `content/site-config.json` stores the publication edition, revision date and full-PDF URL.
-- `assets/js/site.js` powers browser search, filters, compare, shortlist and feedback preparation.
+- `assets/js/site.js` powers browser search, filters, compare and feedback preparation. Search data lives in `assets/data/programs.min.json`.
 
 The generated HTML pages are indexable and shareable. Program URLs use permanent sourcebook identifiers such as `FED-RD-001`.
 
@@ -53,15 +53,7 @@ FEEDBACK_PROVIDER_API_KEY=
 
 The site can deploy from GitHub Pages or any static host.
 
-For GitHub Pages:
-
-1. Push this repository to GitHub.
-2. In repository settings, enable Pages for the default branch root.
-3. Add the custom domain `tax.lumbermen.org`.
-4. Create a DNS `CNAME` record for `tax` pointing to the GitHub Pages hostname shown in settings.
-5. Enable HTTPS after DNS validates.
-
-If using another static host, keep canonical URLs and sitemap entries pointed at `https://tax.lumbermen.org`.
+For GitHub Pages, the custom domain is connected. Keep `CNAME` in the repository root with `tax.lumbermen.org`, publish from the `main` branch root, and keep canonical URLs and sitemap entries pointed at `https://tax.lumbermen.org`.
 
 ## Publication limits
 
