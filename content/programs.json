@@ -2231,6 +2231,57 @@
     "headline": "Per-job amount varies by county tier and designation"
   },
   {
+    "id": "GA-QJ-001",
+    "title": "Quality Jobs Credit",
+    "jurisdiction": "Georgia",
+    "jurisdiction_type": "State",
+    "state_code": "GA",
+    "activity": "Jobs",
+    "slug": "ga-qj-001",
+    "sourcebook_page": null,
+    "publication_edition": "2026",
+    "publication_revision_date": "September 28, 2026 web addition",
+    "credit_amount_calculation": "Credit amount varies by wage level for taxpayers creating at least 50 new quality jobs; excess credit may be usable against Georgia withholding.",
+    "business_fit_and_eligible_activity": "Larger forest-products employers creating substantial new Georgia jobs at or above the county wage threshold should screen this alongside the regular Job Tax Credit.",
+    "eligibility_and_practical_use": "This is a high-growth hiring credit rather than an equipment credit. It is most likely to matter for a mill, engineered-wood plant, or other expansion adding a large block of qualifying jobs; small logging contractors and modest staffing increases generally will not clear the threshold.",
+    "illustrative_business_benefit": "Use-of-credit illustration, not an estimated award: if the completed Georgia calculation establishes a $75,000 credit and the taxpayer has sufficient Georgia liability or approved withholding offset capacity, the usable benefit depends on the annual limits and filing requirements. The job count, wage level, location, and withholding approval drive the actual value.",
+    "timing_first_action": "Before assigning value, test the hiring plan against the new-quality-job count, wage, work-week, Georgia location, and filing requirements; file the required Georgia forms on time.",
+    "refundable": "No cash refund; excess credit may be taken against Georgia withholding if requirements are met.",
+    "transferable": "No",
+    "carryforward": "Not established in the cited summary. Confirm the period before relying on unused credits.",
+    "additional_detail": "",
+    "official_sources": [
+      {
+        "label": "Georgia Department of Revenue — Quality Jobs Credit",
+        "publisher": "Georgia Department of Revenue",
+        "url": "https://dor.georgia.gov/quality-jobs-credit"
+      }
+    ],
+    "difficulty_score": 2,
+    "difficulty_label": "Certified",
+    "forest_products_fit_score": 2,
+    "forest_products_fit_label": "Conditional",
+    "qualification": "Contains a qualification or item to confirm before relying on the credit.",
+    "activity_tags": [
+      "Jobs",
+      "Workforce"
+    ],
+    "business_relevance": [
+      "Primary processing",
+      "Secondary manufacturing"
+    ],
+    "timing_tags": [
+      "Advance action required",
+      "Tax-return or annual claim"
+    ],
+    "refundable_status": "no",
+    "transferable_status": "no",
+    "search_synonyms": "quality job high wage withholding",
+    "url": "/credits/georgia/ga-qj-001/",
+    "headline": "Credit amount varies by wage level for taxpayers creating",
+    "summary": "Larger forest-products employers creating substantial new Georgia jobs at or above the county wage threshold should screen this alongside the regular Job Tax Credit."
+  },
+  {
     "id": "GA-INV-001",
     "title": "Manufacturer's Investment Tax Credit",
     "jurisdiction": "Georgia",
@@ -2437,6 +2488,58 @@
     "url": "/credits/georgia/ga-retrain-001/",
     "summary": "Existing manufacturers retraining employees for new equipment, technology or processes can qualify.",
     "headline": "50% of eligible retraining costs up to statutory"
+  },
+  {
+    "id": "GA-CHILD-001",
+    "title": "Georgia Employer Childcare Expense Credit",
+    "jurisdiction": "Georgia",
+    "jurisdiction_type": "State",
+    "state_code": "GA",
+    "activity": "Workforce",
+    "slug": "ga-child-001",
+    "sourcebook_page": null,
+    "publication_edition": "2026",
+    "publication_revision_date": "September 28, 2026 web addition",
+    "credit_amount_calculation": "$1,000 per child in the first year and $500 per child in later years for eligible child-care payments; statewide annual cap applies.",
+    "business_fit_and_eligible_activity": "Forest-products employers making eligible child-care payments for employees can screen this as a workforce-support credit beginning with 2026 tax years.",
+    "eligibility_and_practical_use": "This is a general employer workforce credit, not a forestry-specific incentive. It may matter where child care is a real hiring or retention barrier and the employer pays a qualifying child-care facility directly for employees' children.",
+    "illustrative_business_benefit": "A mill makes eligible payments for 12 employees' children in its first qualifying year. At $1,000 per child, the nominal credit would be $12,000 before preapproval, statewide cap, income-tax-liability, and documentation limits.",
+    "timing_first_action": "Seek preapproval through the Georgia Tax Center before relying on the credit; document eligible payments, covered employees, child age, and the qualifying child-care facility.",
+    "refundable": "No",
+    "transferable": "No",
+    "carryforward": "No carryforward or carryback is allowed under the cited summary.",
+    "additional_detail": "",
+    "official_sources": [
+      {
+        "label": "Georgia Department of Revenue — Georgia Employer Childcare Expense Credit",
+        "publisher": "Georgia Department of Revenue",
+        "url": "https://dor.georgia.gov/georgia-employer-childcare-expense-credit"
+      }
+    ],
+    "difficulty_score": 2,
+    "difficulty_label": "Certified",
+    "forest_products_fit_score": 2,
+    "forest_products_fit_label": "Conditional",
+    "qualification": "Contains a qualification or item to confirm before relying on the credit.",
+    "activity_tags": [
+      "Jobs",
+      "Workforce"
+    ],
+    "business_relevance": [
+      "Logging / harvesting",
+      "Primary processing",
+      "Secondary manufacturing"
+    ],
+    "timing_tags": [
+      "Advance action required",
+      "Tax-return or annual claim"
+    ],
+    "refundable_status": "no",
+    "transferable_status": "no",
+    "search_synonyms": "child care childcare workforce retention",
+    "url": "/credits/georgia/ga-child-001/",
+    "headline": "$1,000 per child in the first year",
+    "summary": "Forest-products employers making eligible child-care payments for employees can screen this as a workforce-support credit beginning with 2026 tax years."
   },
   {
     "id": "HI-RETITC-001",

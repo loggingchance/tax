@@ -62,10 +62,12 @@
   ],
   "Georgia": [
     "GA-JOBS-001",
+    "GA-QJ-001",
     "GA-INV-001",
     "GA-OPTINV-001",
     "GA-RD-001",
-    "GA-RETRAIN-001"
+    "GA-RETRAIN-001",
+    "GA-CHILD-001"
   ],
   "Hawaii": [
     "HI-RETITC-001",
