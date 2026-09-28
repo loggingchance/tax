@@ -5,3 +5,4 @@
 [hidden]{display:none!important}.source-page{scroll-margin-top:6.5rem}.check-list label[hidden]{display:none!important}.compare-tray[hidden]{display:none!important}
 
 .program-list:not(.compact){padding:1.5rem clamp(1rem,5vw,4rem)}.detail .program-list:not(.compact),.detail .program-list.compact{padding:0}@media(max-width:900px){.detail-layout{display:flex;flex-direction:column}.detail-sidebar{order:-1;width:100%}}
+.home-page .hero{padding:clamp(1.15rem,3.2vw,2.6rem) clamp(1rem,5vw,4rem);gap:1.5rem}.home-page .hero h1{margin:.1rem 0 .75rem}.home-page .hero p{margin:.65rem 0}.home-page .hero img{height:min(42vh,430px)}.home-page .home-search{margin-top:.75rem}.home-page .hero-copy>p:last-child{margin-bottom:0}.home-page .state-jump{padding:.75rem clamp(1rem,5vw,4rem)}
