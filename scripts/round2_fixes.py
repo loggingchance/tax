@@ -291,7 +291,7 @@ def timing_section(record):
 def shared_footer_dialog():
     return f'''<footer class="site-footer">
   <div><h2>About</h2><p><strong>National Forest Products Tax Credit Sourcebook</strong><br>2026 Edition<br>Revised September 24, 2026</p><p>This is a screening guide, not tax advice or a guarantee of eligibility.</p></div>
-  <div><h2>Navigate</h2><p><a href="/search/">Search</a><br><a href="/states/">States</a><br><a href="/activity/">Activities</a><br><a href="/updates/">Updates</a><br><a href="/compare/">Compare</a><br><a href="/about/">How to Use</a></p></div>
+  <div><h2>Navigate</h2><p><a href="/search/">Search</a><br><a href="/states/">States</a><br><a href="/activity/">Activities</a><br><a href="/updates/">Updates</a><br><a href="/compare/">Compare</a><br><a href="/about/">About</a></p></div>
   <div><h2>Corrections</h2><p>Send corrections, broken links, and new program information to <a href="mailto:steve@northeastforests.com">steve@northeastforests.com</a>.</p><p><a href="{PDF_URL}" download>Full sourcebook</a></p></div>
 </footer>
 <dialog id="feedbackDialog" aria-labelledby="feedbackTitle">
